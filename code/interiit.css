@@ -1,0 +1,157 @@
+body{
+    border: 23px solid #ededed;
+    margin: 0;
+     position: relative;
+}
+.wrapper{
+    width: 87%;
+    margin: auto;
+    font-family: 'Questrial', sans-serif;
+}
+
+table{
+    width: 100%;
+    margin-top: 60px;
+}
+
+table tr td{
+    font-size: 16px;
+    padding: 0;
+    
+}
+.head table td a{
+    display: block;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.head table td a:hover{
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    opacity: .81;}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: #242321;
+}
+
+.one { padding-top:0px;}
+
+.title {font-size:2em; text-align:center; margin-top: 100px; margin-bottom:0; color: #282626;}
+
+.sub-title {font-size:1.2em; text-align:center; letter-spacing: 3px; margin-top: 10px; margin-bottom: 40px;}
+.text {letter-spacing: .5px; font-size:16; line-height:1.7; margin: 24px auto;}
+
+span {letter-spacing: .6px; font-size:18; font-weight: 500; color: #242321; font-weight: 600; opacity: .85;}
+
+.three {margin-top: 30px;}
+
+#top{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0;
+}
+
+.five{
+    width: 100%;
+    margin: 10px auto 50px auto;
+    display: block;
+    
+}
+
+.seven{
+    width: 85%;
+    margin: 10px auto 50px auto;
+    display: block;
+    
+}
+
+.posters{
+    margin: auto;
+    display: block;
+}
+
+.posters2{
+    margin-top: 35px;
+}
+
+.mySlides{
+    margin-left: 45px;
+}
+
+.flex{
+    margin: auto;
+    margin-top: 25px;
+}
+.myslide{
+    margin-left: 45px;
+}
+
+.ship{
+    width: 100%;
+    margin: 10px auto 50px auto;
+    display: block;
+    
+}
+
+
+.lowernav table {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.lowernav table td
+{ 
+    font-size: 1.2em;
+    opacity: .85;
+}
+
+.lowernav table td:hover
+{ 
+    font-size: 1.2em;
+    opacity: 1;
+}
+
+
+.footer {
+    border-top: 80px solid white;
+    background-color: #ededed;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.footer ul{
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.footer ul li{
+    display:inline-block;
+    margin: 0;
+    padding: 15px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #6c6c6c;
+}
+.fb a:hover{color: #3b5998;}
+.li a:hover{color: #0077B5;}
+.in a:hover{color: #fb3958;}
+.dr a:hover{color: #ea4c89;}
+.be a:hover{color: #1769ff;}
+.up a:hover{color: #8c1aff;}
+
+
+.footer p{
+    margin-bottom: 5px;
+    color: #6c6c6c;
+    font-size: 14px; margin-top: 18px; letter-spacing: .5px; display: inline;}

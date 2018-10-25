@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="foodbox.css">
+        <link href="https://fonts.googleapis.com/css?family=Caveat|Questrial" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <title> Food Box App </title>
+   <body>
+       <div class="wrapper">
+	   <div class="head">
+           <table>
+               <col width="85%">
+               <col width="7.5%">
+               <col width="7.5%">
+            <tr>
+                <td><a href="index.html" style="font-family: 'Caveat', cursive; font-size: 28px;">Lakshya Kumawat</a></td>
+                <td style=" text-align: right;"><a href="index.html">Portfolio</a>
+                <td style="text-align: right;"><a href="about.html">About</a></td>
+            </tr>
+            </table>
+        </div>
+        
+        <div class="one">
+			<p class="title"> Food Box App </p>
+			<p class="sub-title"> Product Design </p>
+		</div>
+         </div>  
+		<img src="../pics/Food_Box.png" style="display: block; width: 90%; margin-top: 40px; margin-bottom: 20px; margin-left: 5%">
+       <div class="wrapper">
+        <!--
+        <div class="threer">
+				<img src="../pics/tm-01-01.png">
+				</div>
+				
+				<p class="text" id="top"> I did my summer internship at <a href="https://theminimalist.in/" class="tm">The Minimalist</a>,a creative design and digital consultancy founded in, May, 2015.
+				The Minimalist started off as a business to business company, mainly focusing on providing design solutions 
+				and advisory to various businesses and companies. </p>
+				
+				
+			     
+            <p class="text"> This article focuses on the work that I did as a User Experience design intern for one of the clients of The 
+			Minimalist i.e. Cogoport- Freight Simplified, which is globally available online freight forwarder with the most
+			powerful network of independent freight agents all over the World. It can simply understood as ‘Flipkart for 
+			logistics’. It was an online platform for to book an intermodal freight system for transport of goods from one
+			place to another. </p>
+       <p class="text"><span>My Role</span> <br>
+			My role was to assist my mentor Dhawal Goyal (Head of growth, The Minimalist) in the design of UX for the web product
+			for this platform (buyer side).</p>
+			<p class="text"> <span> Initial idea of the product </span> <br>
+			Cogoport was an online platform for companies and businesses to book freight carriers for their goods to get transported from one place of the world to another – a data driven platform that has web-based and app-based solutions to provide instant rates, book and track a shipment and ultimately pay with convenience.
+			So it required its customers to enter the details of places from where the freight needs to be transported, the type of goods, the method transportation and various other details.
+			Then Cogoport searches and offers them a list shipping lines and freight carriers with average estimate of cost for booking.
+			When the person enters the place of loading and the place of discharge, the system figures the route that is to be taken and the intermodal freight system if needed. </p>
+			<p class="text"> <span> Design </span> <br>
+			We started with competitor analysis from various websites like Searates, Freightos, Xenetta, Icontainers and Shipwaves and also interviewed users and the client to decide the key features of the product that are as follows.</p>
+			<p class="text"> <span>Search</span> <br>
+			The most basic and important feature was the search feature, where customer will enter its details of port of discharge, port of loading, freight type and method of transport i.e. seaways, roadways or airways. So we designed the IA and chose best two iterations. </p>
+			<p class="text"> Iteration 1: </p>
+			
+			
+			<img class="five" src="search%20IA-01.png">
+			
+			
+			<p class="text"> In the first iteration the user had to first choose the mode of transportation then enter the further details.<br>
+			Iteration 2: </p>
+			
+			<img class="seven" src="search IA 2-01.png">
+			
+			<p class="text">The second option allowed the users to first enter the point of loading and point of discharge and then they were provided with the estimated costs of all the three modes of transport i.e. FCL, LCL and air. This gave users a rough idea about the expense that each option had.
+On the basis of feedback we received from interviewing certain users, it was found that any industry related to Import/Export is built according to method of freight transport i.e. FCL, LCL and Air. The industry that deals in FCL would not like to trade in LCL and hence it would not like to see the rates of the other options. Hence, option 1 was chosen.</p>
+			
+            
+            <p class="text"> <span>Search Listing</span> <br>
+			The following if the information architecture for the search results that system shows the user when the user has entered the details and freight mode.</p>
+            
+            <img class="seven" src="searchlisting-01.png">
+            <p class="text"> <span>Book</span> <br>
+			After viewing the rates ,if the customer feels ready to select one then this ‘book’ option allows him to book his/her shipping line for the transportation of the freight.
+            </p>
+            <img class="seven" src="book-01.png">
+            <p class="text"> <span>Favorite Port Pair</span> <br>
+			From results of user research, we also came to know that in 70% of the customers have their clients fixed for a period of 3-4 years. This brought me to a conclusion that in most of the cases the customer enter same details about the source – destination, freight type and freight amount again and again.The Favorite port pair feature allows customer to make a list of pairs of origin and destination in which he/she deals with regularly and uses it to quickly pick a port pair to search for rates.Here if the Information Architecture for the Favorite port pairs for FCL, LCL and Air (mode of transportation).
+            </p>
+            <img class="seven" src="fpp-01.png">
+            <p class="text"> <span>Dashboard</span> <br>
+			This feature contains various useful elements that the customer would like to visit for efficient functioning of his/her business.
+            </p>
+            <img src="dash-01.png" style="height: auto; width: 85%;  display: block; margin: 10px auto 50px auto; ">
+            <p class="text"> <span>Vessel Track & Schedule</span> <br>
+			This feature allows the customer to look for the schedule of shipments of various shipping lines scheduled at a specific time. It also allows the user to track the location of that shipment even if the user’s shipment is not on that carrier.
+            </p>
+            <img class="ten" src="vessel-01.png">
+            <p class="text"> <span>Shipment</span> <br>
+			After the customer has booked the shipment, this feature allows it to view the details, schedule, location, quotation, seller details, contact details, freight details and important document which are needed for the shipment to pass through international borders. It also allows the user to track its shipment on the world map with place of loading and place discharge in view. This requires Global positioning system web app to track the position of the shipment in real time.</p>
+            <img class="ship" src="shipment-01.png">
+            <p class="text"> <span>Task flows & User Flow Design</span> <br>			
+                After completion of design of the Information Architecture, my mentor told me about the next design step i.e. taskflow and Userflow design.<br>
+                I was new to this process so I quickly google searched about it and I found that these terms didn’t had any fixed definition. What I could infer from my research and analysis from various case studies was that - Task flow is a single flow completed similarly by all users for a specific action. Ex. Sign In. <br>
+                User Flow is the path a user follows through an application. They are like the journeys that user takes up to fulfill his/her requirements he/she has from the product. <br>
+                I was initially a bit confused about the difference between task flow/Userflow and Information Architecture. It happened so because generally when design UX for a small website/app/product, the IA is not so vast and we end up mixing flow and architecture in a same flow chart. But when we design UX for a vast product like Cogoport then hierarchy and information availability is decided by IA and the actions that user takes to perform a required task is defined by Taskflows/ User flows. By determining this path you can see possible turns through the route and can optimize the user experience.Some key points I learned are:<br>
+                1. Task flows have a singular flow, they don’t branch out.<br>
+                2. The flow doesn’t have to be linear, it can branch out in a non-linear path.<br> 
+                3. User flows and task flows always start with a verb. <br>
+                This process involves the mapping of the tasks the user has to perform to achieve his/her needs on the website. Here are some examples for the website:
+            </p>
+            <p><span>Profile</span></p>
+            <img class="ten" src="Profile Task Flows-01.png"><br>
+            <p><span>Search</span></p>
+            <img class="ten" src="search task flow-01.png">
+            <p><span>Vessel</span></p>
+            <img class="ten" src="vesseltf-01.png">
+            <p class="text"> <span>Conclusion</span> <br>
+                The Information Architecture that I build is currently now implemented in the web product of Cogoport. After working on this project I have now confidence to build any web or application platform for any company and I can easily summarize the process of building a digital product in following steps:<br>
+                a)	Current Product Breakdown <br>
+                b)	Primary User research <br>
+                c)	Competitor Analysis<br>
+                d)	Design of a Feature Dump<br>
+                e)	Building of Information Architecture<br>
+                    i.	Priorities information according to the need of the user<br>
+                    ii.	Add or remove various features and information on the basis of the data received from the user research<br>
+                    iii.	Combine or split different chunks of information to make the platform as efficient as possible.<br>
+                f)	User Stories development<br>
+                g)	Creating Task flows<br>
+                h)	Persona Revisit<br>
+                i)	Preparation of low fidelity wireframes<br>
+                j)	User testing<br>
+                k)	Preparation of High Fidelity wireframes<br>
+                l)	User Testing <br>
+                m)	User Interface design<br>
+<br>
+Unfortunately, in this I was able work only up to the building of task flows due to lack of time as the time period of my internship was over. 
+I learned a lot from working in a professional design firm. I also realized user research is a very important part any design project because we need to accurately know about the problem which needs to be solved. Only then the design we make will be beneficial for its users.<br>
+I also learned that Information Architecture only tells us about the hierarchy of the information whereas user stories and task flows tell us about the flow of action that user has to perform to meet his needs.
+
+            </p>
+         
+         -->  
+           <div class="lowernav">
+             <table>
+                 <col width="15%">
+                 <col width="35%">
+                 <col width="0">
+                 <col width="40%">
+                 <col width="10%">
+               <tr>
+                 <td><a href="razor.html">Previous Project</a></td><td></td>
+                 <td style="margin: auto;"><a href="index.html"><img src="../pics/nav icon-01.png"></a></td><td></td>
+                <td style="text-align: right;"><a href="cogni.html">Next Project</a></td>   
+                 </tr>
+               
+               </table>
+        
+           
+           </div>
+       
+       </div> 
+       
+         
+       
+       
+       
+       
+       
+       
+       <div class="footer">
+            <ul>
+                <li class="fb"> <a href="https://www.facebook.com/lakshya.kumawat.161" target="_blank"> Facebook </a> </li>
+                <li class="li"> <a href="https://www.linkedin.com/in/lakshya-kumawat-422349128/" target="_blank"> LinkedIn </a> </li>
+                <li class="in"> <a href="https://www.instagram.com/lakshya.k_alpha/" target="_blank">Instagram</a> </li>
+                <li class="dr"> <a href="https://dribbble.com/lakshya07" target="_blank">Dribbble</a> </li>
+                <li class="be"> <a href="https://www.behance.net/lakshyakum83a5" target="_blank">Behance</a> </li>
+                <li class="up"> <a href="https://www.uplabs.com/lakshya07" target="_blank">Uplabs</a> </li>
+            </ul>
+            <p>Crafted with</p><img src="../pics/heart-01.png" style="width: 13px; margin-left:7px;">
+    </div> 
+           
+           
+           
+    
+      
+    </body>
+    
+    
+    
+    </head>
+</html>

@@ -1,0 +1,140 @@
+body{
+    border: 23px solid #ededed;
+    margin: 0;
+    background-color:;
+    position: relative;
+    font-family: 'Questrial', sans-serif;
+    overflow-y: hidden;
+}
+
+
+
+.heading{
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    letter-spacing: .5px;
+    
+    color: #242321;
+    
+}
+
+.intro{
+    margin-left: 2px;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: #666;
+    letter-spacing: .5px;
+}
+
+.
+p.texthead{
+    font-size: 22px;
+    margin: 0;
+    margin-top: 15px;
+    color: #666;
+}
+
+p.texttitle{
+    font-size: 13px;
+    margin-top: 8px;
+    letter-spacing: .5px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.cross{
+    position: fixed;
+    right: 55px;
+    top: 45px;
+    
+}
+
+.left {
+    display: inline;
+    width: 35%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.right{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 8vw;
+    width: 50%;
+    z-index: 0;
+    
+    
+}
+
+.footer {
+    
+    
+    
+    padding-top: 10px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.footer ul{
+    margin: 0 5px 0 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.footer ul li{
+    display:inline-block;
+    margin: 10 0 10 0;
+    padding: 0 10px 0 0;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #6c6c6c;
+    padding: 10px;
+    letter-spacing: 0.25px;
+    opacity: 1;
+}
+
+.fb a:hover{color: white;background-color: #3b5998;}
+.li a:hover{color: white;background-color: #0077B5;}
+.in a:hover{color: white;background-color: #fb3958;}
+.dr a:hover{color: white;background-color: #ea4c89;}
+.be a:hover{color: white;background-color: #1769ff;}
+.up a:hover{color: white;background-color: #8c1aff;}
+
+.back{
+    margin-top: 10px;
+    text-decoration: none;
+    border: 0px solid #242321;
+    padding: 10px;
+    color: #666;
+    font-size: 16px;
+    display: block;
+    width: 10%;
+    text-align: center;
+    letter-spacing: .4px;
+    }
+
+/*
+.back{
+    margin-top: 30px;
+    text-decoration: none;
+    background-color: #242321;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    display: block;
+    width: 15%;
+    text-align: center;
+    letter-spacing: .4px;
+    
+}
+*/
+.back:hover{background-color: #2c2c2c;
+            color: white;}

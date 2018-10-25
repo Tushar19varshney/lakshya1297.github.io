@@ -1,0 +1,125 @@
+body{
+    background-color: #114472;
+    margin: 0;
+}
+
+.card{
+    width: 56%;
+    height: 420px;
+    background-color: white;
+    margin: 100px auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 80px  rgba(100, 100, 100, 0.32);
+    background: radial-gradient(circle, #e4e4e4, #f4f4f4);
+}
+
+.logo{
+    width: 40px;
+    position: absolute;
+    right: 24px;
+    top: 20px;
+    margin: 0 0 0 0px;
+}
+
+.lamb{
+    font-family: La Macchina;
+    top: 50px;
+    left: 30px;
+    position: absolute;
+    margin: 0 0 0 0px;
+    font-size: 18px;
+}
+
+.head{
+    font-family: 'Rozha One', serif;
+    font-size: 46px;
+    top: 60px;
+    left: 30px;
+    position: absolute;
+    color: #282828;
+    margin: 0 0 0 0px;
+}
+
+.text{
+    font-family: 'Sumana', serif;
+    margin: 0 0 0 0px;
+    top: 125px;
+    left: 30px;
+    position: absolute;
+    width: 42%;
+    color: #282828;
+    font-size: 18px;
+}
+
+.car{
+    width: 580px;
+    position: absolute;
+    right: -60px;
+    top: 180px;
+}
+
+.cta{
+    background-color: #0e316b;
+    color: white;
+    font-family: 'Rozha One', serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 7px 20px;
+    top: 250px;
+    left: 30px;
+    position: absolute;
+    letter-spacing: 1px;
+    margin: 0 0 0 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px  rgba(17, 23, 32, 0.4);
+}
+
+.info{
+    background-color: #0a1928;
+    height: 90px;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    border-radius: 5px;
+    bottom: -45px;
+    box-shadow: 0px 0px 50px  rgba(90, 90, 90, 0.35);
+}
+
+.left{
+   
+    width: 33.33%;
+    float: left;
+}
+
+.middle{
+    
+    width: 33.33%;
+    float: left;
+}
+
+.right{
+    
+    width: 33.33%;
+    float: left;
+}
+
+.num{
+    color: white;
+    font-family: 'Rozha One', serif;
+    font-size: 42px;
+    margin: 8px auto 0 auto;
+    text-align: center;
+    letter-spacing: .75px;
+}
+
+.spec{
+    color: white;
+    font-family: 'Sumana', serif;
+    font-size: 13px;
+    margin: -12px auto 0 auto;
+    text-align: center;
+    opacity: .8;
+    letter-spacing: .75px;
+}
+
