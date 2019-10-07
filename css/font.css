@@ -1,0 +1,111 @@
+/*  Normal fonts fonts */
+@font-face {
+  font-family: 'Neutrifpro-regular';
+  src: url('../fonts/neutrifpro-regular-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neutrifpro-bold';
+  src: url('../fonts/neutrifpro-bold-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neutrifpro-semibold';
+  src: url('../fonts/neutrifpro-semibold-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neutrifpro-light';
+  src: url('../fonts/neutrifpro-light-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neutrifpro-medium';
+  src: url('../fonts/neutrifpro-medium-webfont.ttf') format('truetype');
+}
+
+/*  Italic fonts */
+@font-face {
+  font-family: 'Neutrifpro-regular-italic';
+  src: url('../fonts/neutrifpro-regularitalic-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neutrifpro-bold-italic';
+  src: url('../fonts/neutrifpro-bolditalic-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neutrifpro-semibold-italic';
+  src: url('../fonts/neutrifpro-semibolditalic-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neutrifpro-light-italic';
+  src: url('../fonts/neutrifpro-lightitalic-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neutrifpro-medium-italic';
+  src: url('../fonts/neutrifpro-mediumitalic-webfont.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Neutrifpro-regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+hr,
+fieldset,
+form,
+label,
+legend,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@-webkit-viewport {
+  width: device-width;
+}
+@-moz-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}

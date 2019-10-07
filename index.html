@@ -10,31 +10,148 @@
     <meta name="description" content="Lakshya Portfolio" />
     <meta name="author" content="Lakshya Kumawat" />
     <title>Lakshya Kumawat</title>
-    <!-- Latest compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"
-    />
+    <script src="js/responsive-nav.js"></script>
     <!-- my own css file -->
-    <link rel="stylesheet" href="css/index.css" />
+
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- Google fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300"
       rel="stylesheet"
     />
+    <!--Custom Fonts-->
+    <link rel="stylesheet" href="css/font.css" />
+
     <!-- Icon Fonts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
-    ></script>
+    />
   </head>
 
   <body>
-    <div></div>
+    <!-- <nav class="navbar navbar-custom-parent navbar-expand-sm fixed-top">
+        <div class="navbar-child-logo-parent">
+          <div class="navbar-child-logo-child1">
+            <img src="./img/Landing/logo.png" />
+          </div>
+          <div class="navbar-child-logo-name">
+            <div>Lakshya Kumawat</div>
+          </div>
+        </div>
+        <div class="navbar-child-items">
+          <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Let's Talk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </nav> -->
+
+    <header>
+      <div id="navbar" class="navbar-custom-parent">
+        <div class="navbar-child-logo-parent">
+          <div class="navbar-child-logo-child1">
+            <img src="./img/Landing/logo.png" />
+          </div>
+          <div class="navbar-child-logo-name">
+            <div>Lakshya Kumawat</div>
+          </div>
+        </div>
+        <div class="nav-collapse-parent">
+          <nav class="nav-collapse">
+            <ul>
+              <li class="menu-item nav-item active">
+                <a class="nav-link" href="#home" data-scroll>Home</a>
+              </li>
+              <li class="menu-item nav-item">
+                <a class="nav-link" href="#projects" data-scroll>Projects</a>
+              </li>
+              <li class="menu-item nav-item">
+                <a class="nav-link" href="#blogs" data-scroll>Blogs</a>
+              </li>
+              <li class="menu-item nav-item">
+                <a class="nav-link" href="#aboutme" data-scroll>About Me</a>
+              </li>
+              <li class="menu-item nav-item">
+                <a class="nav-link" href="#letstalk" data-scroll>Let's Talk</a>
+              </li>
+              <li class="menu-item nav-item">
+                <a class="nav-link" href="#resume" data-scroll>Resume</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home">
+      <p></p>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+    </section>
+
+    <section id="blogs">
+      <h1>Blog</h1>
+    </section>
+
+    <section id="aboutme">
+      <h1>About me</h1>
+    </section>
+
+    <section id="letstalk">
+      <h1>Let's Talk</h1>
+    </section>
+
+    <section id="resume">
+      <h1>Resume</h1>
+    </section>
+
+    <script src="./js/fastclick.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/fixed-responsive-nav.js"></script>
+    <script>
+      window.addEventListener(
+        'scroll',
+        function() {
+          let doc = document.getElementById('navbar')
+          let scrollTop =
+            window.pageYOffset ||
+            (
+              document.documentElement ||
+              document.body.parentNode ||
+              document.body
+            ).scrollTop
+          if (scrollTop >= 100) {
+            doc.classList.add('box-shadow')
+          } else {
+            doc.classList.remove('box-shadow')
+          }
+        },
+        true
+      )
+    </script>
   </body>
 </html>
