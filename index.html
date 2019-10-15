@@ -10,129 +10,349 @@
     <meta name="description" content="Lakshya Portfolio" />
     <meta name="author" content="Lakshya Kumawat" />
     <title>Lakshya Kumawat</title>
-    <script src="js/responsive-nav.js"></script>
     <!-- my own css file -->
 
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/loader.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Google fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300"
       rel="stylesheet"
     />
+
     <!--Custom Fonts-->
     <link rel="stylesheet" href="css/font.css" />
 
     <!-- Icon Fonts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
+
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <script type="text/javascript" src="./js/scrollify.js"></script>
+
+    <script>
+      // $(function() {
+      //   $.scrollify({
+      //     section: '.home',
+      //     interstitialSection: '',
+      //     easing: 'easeOutExpo',
+      //     scrollSpeed: 1100,
+      //     offset: 0,
+      //     scrollbars: true,
+      //     standardScrollElements: '',
+      //     setHeights: true,
+      //     overflowScroll: true,
+      //     updateHash: true,
+      //     touchScroll: true,
+      //     before: function() {},
+      //     after: function() {},
+      //     afterResize: function() {},
+      //     afterRender: function() {}
+      //   })
+      // })
+    </script>
   </head>
 
-  <body>
-    <!-- <nav class="navbar navbar-custom-parent navbar-expand-sm fixed-top">
-        <div class="navbar-child-logo-parent">
-          <div class="navbar-child-logo-child1">
-            <img src="./img/Landing/logo.png" />
-          </div>
-          <div class="navbar-child-logo-name">
-            <div>Lakshya Kumawat</div>
-          </div>
-        </div>
-        <div class="navbar-child-items">
-          <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Let's Talk</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
-            </li>
-          </ul>
-        </div>
-      </nav> -->
+  <body onload="loaderFunction()">
+    <div id="loader" class="loader-parent">
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+          <circle id="test" cx="40" cy="40" r="32"></circle>
+        </svg>
+      </div>
 
-    <header>
-      <div id="navbar" class="navbar-custom-parent">
-        <div class="navbar-child-logo-parent">
-          <div class="navbar-child-logo-child1">
-            <img src="./img/Landing/logo.png" />
-          </div>
-          <div class="navbar-child-logo-name">
-            <div>Lakshya Kumawat</div>
-          </div>
+      <div class="loader triangle">
+        <svg viewBox="0 0 86 80">
+          <polygon points="43 8 79 72 7 72"></polygon>
+        </svg>
+      </div>
+
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+          <rect x="8" y="8" width="64" height="64"></rect>
+        </svg>
+      </div>
+    </div>
+    <nav
+      id="navbar"
+      class="navbar navbar-custom-parent navbar-expand-sm fixed-top"
+    >
+      <div class="navbar-child-logo-parent">
+        <div class="navbar-child-logo-child1">
+          <img src="./img/Landing/logo.png" />
         </div>
-        <div class="nav-collapse-parent">
-          <nav class="nav-collapse">
-            <ul>
-              <li class="menu-item nav-item active">
-                <a class="nav-link" href="#home" data-scroll>Home</a>
-              </li>
-              <li class="menu-item nav-item">
-                <a class="nav-link" href="#projects" data-scroll>Projects</a>
-              </li>
-              <li class="menu-item nav-item">
-                <a class="nav-link" href="#blogs" data-scroll>Blogs</a>
-              </li>
-              <li class="menu-item nav-item">
-                <a class="nav-link" href="#aboutme" data-scroll>About Me</a>
-              </li>
-              <li class="menu-item nav-item">
-                <a class="nav-link" href="#letstalk" data-scroll>Let's Talk</a>
-              </li>
-              <li class="menu-item nav-item">
-                <a class="nav-link" href="#resume" data-scroll>Resume</a>
-              </li>
-            </ul>
-          </nav>
+        <div class="navbar-child-logo-name">
+          <div>Lakshya Kumawat</div>
         </div>
       </div>
-    </header>
+      <div class="navbar-child-items">
+        <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./project.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Let's Talk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <section id="home">
-      <p></p>
+    <section id="home" class="home">
+      <div class="home-parent display-flex">
+        <div class="home-child-left">
+          <div class="home-child-left-first">
+            Hi! I am
+          </div>
+          <div class="home-child-left-second">
+            Lakshya Kumawat
+          </div>
+          <div class="home-child-left-third">
+            Self taught <b>Product and Experience Designer</b>, who loves to
+            solve problems through the understanding of users and knowledge of
+            design.
+          </div>
+          <div class="home-child-left-fourth">
+            <a href="#">
+              <div class="home-child-left-button">
+                View more
+              </div>
+            </a>
+          </div>
+        </div>
+        <div></div>
+      </div>
     </section>
 
-    <section id="projects">
-      <h1>Projects</h1>
+    <section id="projects" class="display-flex">
+      <div class="projects-parent">
+        <div class="projects-child display-flex-evenly">
+          <div class="project-img-parent">
+            <div class="project-img-1"></div>
+          </div>
+          <div class="project-desc">
+            <div class="project-desc-heading">
+              Ingenium Educations : Coaching Companion
+            </div>
+            <div class="project-desc-child display-flex-between">
+              <div class="project-desc-line"></div>
+              <div class="project-desc-desc">
+                Digital product to help coaching institutes work in an effective
+                and efficient way.
+              </div>
+            </div>
+            <div class="project-desc-button">
+              <a href="#">
+                <div class="project-desc-button-child">
+                  Read More
+                  <i class="fa fa-long-arrow-right margin-left-1rem"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-child display-flex-evenly">
+          <div class="project-img-parent">
+            <div class="project-img-1"></div>
+          </div>
+          <div class="project-desc">
+            <div class="project-desc-heading">
+              Ingenium Educations : Coaching Companion
+            </div>
+            <div class="project-desc-child display-flex-between">
+              <div class="project-desc-line"></div>
+              <div class="project-desc-desc">
+                Digital product to help coaching institutes work in an effective
+                and efficient way.
+              </div>
+            </div>
+            <div class="project-desc-button">
+              <a href="#">
+                <div class="project-desc-button-child">
+                  Read More
+                  <i class="fa fa-long-arrow-right margin-left-1rem"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-child display-flex-evenly">
+          <div class="project-img-parent">
+            <div class="project-img-1"></div>
+          </div>
+          <div class="project-desc">
+            <div class="project-desc-heading">
+              Ingenium Educations : Coaching Companion
+            </div>
+            <div class="project-desc-child display-flex-between">
+              <div class="project-desc-line"></div>
+              <div class="project-desc-desc">
+                Digital product to help coaching institutes work in an effective
+                and efficient way.
+              </div>
+            </div>
+            <div class="project-desc-button">
+              <a href="#">
+                <div class="project-desc-button-child">
+                  Read More
+                  <i class="fa fa-long-arrow-right margin-left-1rem"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-child display-flex-evenly">
+          <div class="project-img-parent">
+            <div class="project-img-1"></div>
+          </div>
+          <div class="project-desc">
+            <div class="project-desc-heading">
+              Ingenium Educations : Coaching Companion
+            </div>
+            <div class="project-desc-child display-flex-between">
+              <div class="project-desc-line"></div>
+              <div class="project-desc-desc">
+                Digital product to help coaching institutes work in an effective
+                and efficient way.
+              </div>
+            </div>
+            <div class="project-desc-button">
+              <a href="#">
+                <div class="project-desc-button-child">
+                  Read More
+                  <i class="fa fa-long-arrow-right margin-left-1rem"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-child display-flex-evenly">
+          <div class="project-img-parent">
+            <div class="project-img-1"></div>
+          </div>
+          <div class="project-desc">
+            <div class="project-desc-heading">
+              Ingenium Educations : Coaching Companion
+            </div>
+            <div class="project-desc-child display-flex-between">
+              <div class="project-desc-line"></div>
+              <div class="project-desc-desc">
+                Digital product to help coaching institutes work in an effective
+                and efficient way.
+              </div>
+            </div>
+            <div class="project-desc-button">
+              <a href="#">
+                <div class="project-desc-button-child">
+                  Read More
+                  <i class="fa fa-long-arrow-right margin-left-1rem"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-view-parent">
+          <div class="project-view-heading display-flex">
+            Have a look at some more cool projects.
+          </div>
+          <div class="project-view-desc display-flex">
+            <div>
+              Interesting design projects in different field of design including
+              UI, UX, Graphics, Aniamtion and more awesome case studies.
+            </div>
+          </div>
+          <div class="project-view-button-parent">
+            <a href="#">
+              <div class="project-view-button-child">
+                View All Projects
+                <i class="fa fa-long-arrow-right margin-left-1rem"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="blogs">
-      <h1>Blog</h1>
+      <h1><br /><br />Blog</h1>
     </section>
 
-    <section id="aboutme">
-      <h1>About me</h1>
-    </section>
+    <div id="footer">
+      <div class="footer-svg-2">
+        <img src="./img/2.svg" alt="" />
+      </div>
+      <div class="footer-lets-talk display-flex">
+        <div>
+          Let's Talk
+        </div>
+      </div>
+      <div class="footer-discription display-flex">
+        <div>
+          If you want to collab or get in touch with me just drop me a message,
+          or mail me at lakshya.97k@gmail.com will get back to you as soon as
+          possible.
+        </div>
+      </div>
+      <div class="footer-logos display-flex">
+        <div class="footer-logos-child display-flex">
+          <div>
+            <img src="" alt="" />
+            <div>Facebook</div>
+          </div>
+          <div>
+            <img src="" alt="" />
+            <div>Linkedin</div>
+          </div>
+          <div>
+            <img src="" alt="" />
+            <div>Medium</div>
+          </div>
+          <div>
+            <img src="" alt="" />
+            <div>Dribble</div>
+          </div>
+          <div>
+            <img src="" alt="" />
+            <div>Behance</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <section id="letstalk">
-      <h1>Let's Talk</h1>
-    </section>
-
-    <section id="resume">
-      <h1>Resume</h1>
-    </section>
-
-    <script src="./js/fastclick.js"></script>
-    <script src="./js/scroll.js"></script>
-    <script src="./js/fixed-responsive-nav.js"></script>
     <script>
+      function loaderFunction() {
+        myVar = setTimeout(showLoader, 1000)
+      }
+
+      function showLoader() {
+        document.getElementById('loader').style.display = 'none'
+        document.body.style.overflow = 'visible'
+      }
       window.addEventListener(
         'scroll',
         function() {
@@ -144,7 +364,7 @@
               document.body.parentNode ||
               document.body
             ).scrollTop
-          if (scrollTop >= 100) {
+          if (scrollTop >= 1) {
             doc.classList.add('box-shadow')
           } else {
             doc.classList.remove('box-shadow')

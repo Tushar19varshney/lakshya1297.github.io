@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- this is html page from which you can view the portfolio website -->
+<html lang="en">
+  <head>
+    <!-- unicode characters -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Lakshya Portfolio" />
+    <meta name="author" content="Lakshya Kumawat" />
+    <title>Projects</title>
+    <!-- my own css file -->
+
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/loader.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300"
+      rel="stylesheet"
+    />
+
+    <!--Custom Fonts-->
+    <link rel="stylesheet" href="css/font.css" />
+
+    <!-- Icon Fonts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body onload="loaderFunction()">
+    <div id="loader" class="loader-parent">
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+          <circle id="test" cx="40" cy="40" r="32"></circle>
+        </svg>
+      </div>
+
+      <div class="loader triangle">
+        <svg viewBox="0 0 86 80">
+          <polygon points="43 8 79 72 7 72"></polygon>
+        </svg>
+      </div>
+
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+          <rect x="8" y="8" width="64" height="64"></rect>
+        </svg>
+      </div>
+    </div>
+    <nav
+      id="navbar"
+      class="navbar navbar-custom-parent navbar-expand-sm fixed-top"
+    >
+      <div class="navbar-child-logo-parent">
+        <div class="navbar-child-logo-child1">
+          <img src="./img/Landing/logo.png" />
+        </div>
+        <div class="navbar-child-logo-name">
+          <div>Lakshya Kumawat</div>
+        </div>
+      </div>
+      <div class="navbar-child-items">
+        <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Let's Talk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <script>
+      function loaderFunction() {
+        myVar = setTimeout(showLoader, 1000)
+      }
+
+      function showLoader() {
+        document.getElementById('loader').style.display = 'none'
+        document.body.style.overflow = 'visible'
+      }
+    </script>
+  </body>
+</html>
