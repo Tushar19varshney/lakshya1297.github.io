@@ -21,17 +21,40 @@
 }
 
 .footer-discription > div {
-  width: 65%;
+  width: 60%;
   text-align: center;
+  color: #606c82;
   font-family: Neutrifpro-regular;
   font-size: 1.1rem;
 }
 
 .footer-logos-child {
-  width: 80%;
+  width: 70%;
   justify-content: space-evenly;
   font-family: Neutrifpro-regular;
 }
 
 .footer-logos-child img {
+}
+
+.padding-top-3rem {
+  padding-top: 3rem;
+}
+
+.padding-bottom-2rem {
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-icon-name {
+    display: none;
+  }
+
+  .footer-discription > div {
+    width: 80%;
+  }
+
+  .footer-logos-child {
+    width: 85%;
+  }
 }

@@ -1,0 +1,64 @@
+.aboutme-parent-div {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+}
+
+.aboutme-child1-image {
+  width: 45%;
+}
+
+.aboutme-child1-description {
+  text-align: left;
+  font-family: Neutrifpro-regular;
+  color: #606c82;
+  text-align: left;
+  width: 45%;
+}
+
+.aboutme-hobbies-parent {
+}
+
+.aboutme-hobbies-heading {
+  font-family: Neutrifpro-bold;
+  font-size: 2rem;
+  text-align: center;
+  color: #313e4f;
+}
+
+.aboutme-hobbies-child-element {
+  width: 22%;
+}
+
+.aboutme-hobbies-child-element-image {
+}
+
+.aboutme-hobbies-child-element-heading {
+  font-family: Neutrifpro-bold;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #606c82;
+}
+
+.aboutme-hobbies-child-element-description {
+  font-family: Neutrifpro-regular;
+  font-size: 1rem;
+  text-align: center;
+  color: #606c82;
+}
+
+.margin-top-6rem {
+  margin-top: 6rem;
+}
+
+.margin-top-2rem {
+  margin-top: 2rem;
+}
+
+.social-surrounding-description {
+  font-family: Neutrifpro-regular;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #606c82;
+}

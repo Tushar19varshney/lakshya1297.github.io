@@ -21,6 +21,7 @@
   background-image: url('../img/portfolio_faces-01.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   display: flex;
 }
 .project-desc {
@@ -53,6 +54,7 @@
   color: white;
   font-size: 0.9rem;
   padding: 0.75rem 1rem;
+  border-radius: 4px;
 }
 .margin-left-1rem {
   margin-left: 1.7rem;
@@ -87,8 +89,40 @@
   text-align: center;
   font-size: 1.5rem;
   font-family: Neutrifpro-regular;
+  color: #606c82;
 }
 .project-view-button-parent {
   width: fit-content;
   margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .projects-parent {
+    width: 80%;
+  }
+  .projects-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-img-parent {
+    width: 100%;
+  }
+  .project-img-1 {
+    height: 40vh;
+    width: 100%;
+  }
+  .project-desc {
+    width: 100%;
+  }
+  .project-desc-heading {
+    font-size: 1.7rem;
+  }
+  .project-view-heading {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .project-view-desc > div {
+    font-size: 1.1rem;
+    width: 100%;
+  }
 }
