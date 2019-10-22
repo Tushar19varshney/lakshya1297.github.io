@@ -24,8 +24,8 @@
 }
 
 .talk-form-parent {
-  width: 60%;
-  margin-left: 14.5vw;
+  width: 57%;
+  margin-left: 16.4vw;
 }
 
 .talk-form-element {
@@ -40,6 +40,17 @@
   color: #313e4f;
 }
 
+.talk-child1-description {
+  width: 38%;
+  font-family: Neutrifpro-regular;
+  font-size: 1.15rem;
+  color: #313e4f;
+}
+
+.margin-top-talk-desc {
+  margin-top: 1.5rem;
+}
+
 .talk-form-element input,
 .talk-form-element textarea,
 .talk-form-element select {
@@ -50,11 +61,11 @@
   font-family: Neutrifpro-regular;
   font-size: 0.9rem;
   color: #313e4f;
-  padding: 0.3rem;
+  padding: 0.35rem;
 }
 
 .talk-form-field-info {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-family: Neutrifpro-regular;
   margin-top: 1rem;
 }
@@ -83,4 +94,8 @@
   margin-top: 1rem;
   color: green;
   display: none;
+}
+
+.margin-top-8rem {
+  margin-top: 8.5rem;
 }

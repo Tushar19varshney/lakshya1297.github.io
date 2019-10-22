@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 #home {
   height: 75vh;
 }
@@ -100,6 +103,20 @@
   justify-content: center;
 }
 
+.mailer-msg {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  height: 12vh;
+  width: 6vw;
+  z-index: 10000;
+}
+
+.mailer-msg img {
+  height: 12vh;
+  width: 6vw;
+}
+
 @media screen and (max-width: 768px) {
   #home {
     height: 100%;
@@ -139,5 +156,9 @@
   .home-svg-5 img {
     height: 10vh;
     opacity: 0.5;
+  }
+
+  .mailer-msg {
+    display: none;
   }
 }

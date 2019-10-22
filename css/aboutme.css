@@ -27,6 +27,10 @@
   color: #313e4f;
 }
 
+.aboutme-hobbies-child {
+  margin-top: 4rem;
+}
+
 .aboutme-hobbies-child-element {
   width: 23%;
 }
@@ -35,7 +39,7 @@
 }
 
 .aboutme-hobbies-child-element-image1 {
-  height: 30vh;
+  height: 20vh;
   width: auto;
   background-image: url('../img/Aboutme/potterhead.svg');
   background-repeat: no-repeat;
@@ -45,7 +49,7 @@
 }
 
 .aboutme-hobbies-child-element-image2 {
-  height: 30vh;
+  height: 20vh;
   width: auto;
   background-image: url('../img/Aboutme/music.svg');
   background-repeat: no-repeat;
@@ -54,7 +58,7 @@
   background-size: contain;
 }
 .aboutme-hobbies-child-element-image3 {
-  height: 30vh;
+  height: 20vh;
   width: auto;
   background-image: url('../img/Aboutme/fortnite.svg');
   background-repeat: no-repeat;
@@ -63,7 +67,7 @@
   background-size: contain;
 }
 .aboutme-hobbies-child-element-image4 {
-  height: 30vh;
+  height: 20vh;
   width: auto;
   background-image: url('../img/Aboutme/cricket.svg');
   background-repeat: no-repeat;
@@ -128,11 +132,11 @@
 .aboutme-experience-logos-in {
   height: 100%;
   width: 30%;
-  background-image: url('../img/Aboutme/microsoft.jpg');
+  background-image: url('../img/Aboutme/ingenium.png');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
-  background-size: contain;
+  background-size: 86%;
 }
 
 .aboutme-experience-logos-cogni {
@@ -167,7 +171,7 @@
 
 .aboutme-experience-logos-pl {
   height: 100%;
-  width: 30%;
+  width: 12%;
   background-image: url('../img/Aboutme/pl.png');
   background-repeat: no-repeat;
   background-position: center center;
@@ -177,7 +181,7 @@
 
 .aboutme-experience-logos-ds {
   height: 100%;
-  width: 30%;
+  width: 20%;
   background-image: url('../img/Aboutme/ds.png');
   background-repeat: no-repeat;
   background-position: center center;
@@ -187,10 +191,10 @@
 
 .aboutme-experience-logos-ecell {
   height: 100%;
-  width: 30%;
+  width: 20%;
   background-image: url('../img/Aboutme/ecell.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
-  background-size: contain;
+  background-size: 86%;
 }
