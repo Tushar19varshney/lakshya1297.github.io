@@ -9,17 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Lakshya Portfolio" />
     <meta name="author" content="Lakshya Kumawat" />
-    <title>Projects</title>
+    <title>Let's Talk</title>
     <!-- my own css file -->
 
     <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/loader.css" />
     <link rel="stylesheet" href="css/aboutme.css" />
-    <link rel="stylesheet" href="css/allprojects.css" />
+    <link rel="stylesheet" href="css/talk.css" />
 
     <link
       rel="stylesheet"
@@ -36,7 +35,6 @@
 
     <script src="./js/navbar.js"></script>
     <script src="./js/loader.js"></script>
-
     <!-- Icon Fonts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
@@ -86,7 +84,7 @@
           <li class="nav-item">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
-          <li class="nav-item active-nav-link">
+          <li class="nav-item">
             <a class="nav-link" href="#">Projects</a>
           </li>
           <li class="nav-item">
@@ -95,7 +93,7 @@
           <li class="nav-item">
             <a class="nav-link" href="./aboutme.html">About Me</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active-nav-link">
             <a class="nav-link" href="#">Let's Talk</a>
           </li>
           <li class="nav-item">
@@ -105,84 +103,82 @@
       </div>
     </nav>
 
-    <div class="all-projects-parent">
-      <div class="projects-child display-flex-evenly">
-        <div class="project-img-parent">
-          <div class="project-img-1"></div>
+    <div class="talk-parent margin-top-6rem display-flex-evenly">
+      <div class="aboutme-child1-description">
+        <div class="talk-heading">
+          Let's talk about<br />
+          everything!
         </div>
-        <div class="project-desc">
-          <div class="project-desc-heading">
-            Ingenium Educations : Coaching Companion
-          </div>
-          <div class="project-desc-child display-flex-between">
-            <div class="project-desc-line"></div>
-            <div class="project-desc-desc">
-              Digital product to help coaching institutes work in an effective
-              and efficient way.
-            </div>
-          </div>
-          <div class="project-desc-button">
-            <a href="#">
-              <div class="project-desc-button-child">
-                Read More
-                <i class="fa fa-long-arrow-right margin-left-1rem"></i>
-              </div>
-            </a>
-          </div>
+        <div class="margin-top-2rem">
+          I am available for freelance and other challanging opportunities, if
+          you have it do connect, would love to collab with you. <br /><br />
+          Don’t like forms?
+          <span class="text-color-orange">Send me an email.</span>
         </div>
       </div>
-      <div
-        class="all-projects-child-parent margin-top-6rem display-flex-evenly"
-      >
-        <div class="all-projects-child">
-          <div class="all-project-img-parent">
-            <div class="all-project-img-2"></div>
-          </div>
-          <div class="all-project-desc">
-            <div class="all-project-desc-heading">
-              Whatsapp Poll : 1 Day Design Sprint
-            </div>
-            <div class="project-desc-child display-flex-between">
-              <div class="all-project-desc-desc">
-                One day design challange to introduce polling as a feature in a
-                group chat in Whatsapp.
-              </div>
-            </div>
-            <div class="project-desc-button">
-              <a href="#">
-                <div class="project-desc-button-child">
-                  Read More
-                  <i class="fa fa-long-arrow-right margin-left-1rem"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="all-projects-child">
-          <div class="all-project-img-parent">
-            <div class="all-project-img-3"></div>
-          </div>
-          <div class="all-project-desc">
-            <div class="all-project-desc-heading">
-              Convocation App IITR : Digital Assistance
-            </div>
-            <div class="project-desc-child display-flex-between">
-              <div class="all-project-desc-desc">
-                Digital product to assist and help students who came for the
-                convocation ceremony.
-              </div>
-            </div>
-            <div class="project-desc-button">
-              <a href="#">
-                <div class="project-desc-button-child">
-                  Read More
-                  <i class="fa fa-long-arrow-right margin-left-1rem"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div class="talk-child1-image"></div>
+    </div>
+
+    <div class="talk-form-parent margin-top-2rem">
+      <div class="success-message" id="success-message">
+        Form submitted successfully!
       </div>
+      <form id="talk-form">
+        <div class="talk-form-element">
+          <label for="fullname" id="fullname-label"
+            >Full Name<span class="required-field-star">*</span>
+          </label>
+          <input type="text" name="fullname" id="fullname" required />
+        </div>
+        <div class="talk-form-element">
+          <label for="email" id="email-label"
+            >Email<span class="required-field-star">*</span>
+          </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="talk-form-element">
+          <label for="enquiry" id="enquiry-label"
+            >Enquiry Topic<span class="required-field-star">*</span>
+          </label>
+          <select name="enquiry">
+            <option value="Project Enquiry" selected>Project Enquiry</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="talk-form-element">
+          <label for="organisation" id="organisation-label"
+            >Organisation Name
+          </label>
+          <input type="text" name="organisation" id="organisation" />
+        </div>
+        <div class="talk-form-element">
+          <label for="message" id="message-label"
+            >Message<span class="required-field-star">*</span>
+          </label>
+          <textarea
+            type="text"
+            name="message"
+            id="message"
+            rows="6"
+            required
+          ></textarea>
+        </div>
+        <div class="display-flex-space-between">
+          <div class="project-desc-button margin-top-2rem">
+            <button
+              type="submit"
+              id="submit-form"
+              class="project-desc-button-child talk-button-hover"
+            >
+              Send Now
+              <i class="fa fa-long-arrow-right margin-left-1rem"></i>
+            </button>
+          </div>
+          <div class="talk-form-field-info">
+            <span class="required-field-star">*</span>Fields are compulsory
+          </div>
+        </div>
+      </form>
     </div>
 
     <div id="footer" class="margin-top-6rem">
@@ -194,14 +190,7 @@
       </div>
       <div class="footer-lets-talk display-flex padding-top-3rem">
         <div>
-          Let's Talk
-        </div>
-      </div>
-      <div class="footer-discription display-flex margin-top-2rem">
-        <div>
-          If you want to collab or get in touch with me just drop me a message,
-          or mail me at lakshya.97k@gmail.com will get back to you as soon as
-          possible.
+          Also Connect On
         </div>
       </div>
       <div
@@ -232,5 +221,29 @@
       </div>
       <div class="footer-line"></div>
     </div>
+    <script>
+      var submitform = false
+      var $form = $('form#talk-form'),
+        url =
+          'https://script.google.com/macros/s/AKfycbxXc2jT-aecV2C1yz1KEWWpD1GhMADS0YMlaB-9KxR-ouYTSh8/exec'
+
+      function abc() {
+        $.ajax({
+          url: url,
+          method: 'GET',
+          dataType: 'json',
+          data: $form.serializeArray()
+        })
+        // $('#test-form').hide()
+        // $('.links-shown').show()
+        // submitform = true
+        document.getElementById('success-message').style.display = 'block'
+      }
+
+      $('#submit-form').on('click', function(e) {
+        e.preventDefault()
+        abc()
+      })
+    </script>
   </body>
 </html>

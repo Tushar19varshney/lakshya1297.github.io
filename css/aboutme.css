@@ -1,5 +1,5 @@
 .aboutme-parent-div {
-  width: 70%;
+  width: 74%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10rem;
@@ -28,10 +28,48 @@
 }
 
 .aboutme-hobbies-child-element {
-  width: 22%;
+  width: 23%;
 }
 
 .aboutme-hobbies-child-element-image {
+}
+
+.aboutme-hobbies-child-element-image1 {
+  height: 30vh;
+  width: auto;
+  background-image: url('../img/Aboutme/potterhead.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-hobbies-child-element-image2 {
+  height: 30vh;
+  width: auto;
+  background-image: url('../img/Aboutme/music.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+.aboutme-hobbies-child-element-image3 {
+  height: 30vh;
+  width: auto;
+  background-image: url('../img/Aboutme/fortnite.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+.aboutme-hobbies-child-element-image4 {
+  height: 30vh;
+  width: auto;
+  background-image: url('../img/Aboutme/cricket.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
 }
 
 .aboutme-hobbies-child-element-heading {
@@ -61,4 +99,98 @@
   font-size: 1.1rem;
   text-align: center;
   color: #606c82;
+}
+
+.aboutme-experience-height {
+  height: 20vh;
+}
+
+.aboutme-experience-logos-ms {
+  height: 100%;
+  width: 30%;
+  background-image: url('../img/Aboutme/microsoft.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-experience-logos-rm {
+  height: 100%;
+  width: 30%;
+  background-image: url('../img/Aboutme/rentomojo.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-experience-logos-in {
+  height: 100%;
+  width: 30%;
+  background-image: url('../img/Aboutme/microsoft.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-experience-logos-cogni {
+  height: 100%;
+  width: 30%;
+  background-image: url('../img/Aboutme/cogni.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-experience-logos-ted {
+  height: 100%;
+  width: 30%;
+  background-image: url('../img/Aboutme/tedx.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-experience-logos-esummit {
+  height: 100%;
+  width: 30%;
+  background-image: url('../img/Aboutme/esummit.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-experience-logos-pl {
+  height: 100%;
+  width: 30%;
+  background-image: url('../img/Aboutme/pl.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-experience-logos-ds {
+  height: 100%;
+  width: 30%;
+  background-image: url('../img/Aboutme/ds.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-experience-logos-ecell {
+  height: 100%;
+  width: 30%;
+  background-image: url('../img/Aboutme/ecell.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
 }

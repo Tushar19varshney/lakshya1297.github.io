@@ -32,6 +32,8 @@
     <!--Custom Fonts-->
     <link rel="stylesheet" href="css/font.css" />
 
+    <script src="./js/navbar.js"></script>
+    <script src="./js/loader.js"></script>
     <!-- Icon Fonts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
@@ -87,7 +89,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Blogs</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active-nav-link">
             <a class="nav-link" href="#">About Me</a>
           </li>
           <li class="nav-item">
@@ -115,7 +117,7 @@
         <div class="aboutme-hobbies-heading">
           A Lot more hobbies
         </div>
-        <div class="aboutme-hobbies-child display-flex-evenly">
+        <div class="aboutme-hobbies-child display-flex-evenly margin-top-2rem">
           <div class="aboutme-hobbies-child-element">
             <div class="aboutme-hobbies-child-element-image1"></div>
             <div>
@@ -166,6 +168,29 @@
         <div class="aboutme-hobbies-heading">
           My Experience
         </div>
+        <div class="margin-top-2rem">
+          <div
+            class="aboutme-experience-height margin-top-2rem display-flex-evenly"
+          >
+            <div class="aboutme-experience-logos-ms"></div>
+            <div class="aboutme-experience-logos-rm"></div>
+            <div class="aboutme-experience-logos-in"></div>
+          </div>
+          <div
+            class="aboutme-experience-height margin-top-2rem display-flex-evenly"
+          >
+            <div class="aboutme-experience-logos-cogni"></div>
+            <div class="aboutme-experience-logos-ted"></div>
+            <div class="aboutme-experience-logos-esummit"></div>
+          </div>
+          <div
+            class="aboutme-experience-height margin-top-2rem display-flex-evenly"
+          >
+            <div class="aboutme-experience-logos-pl"></div>
+            <div class="aboutme-experience-logos-ds"></div>
+            <div class="aboutme-experience-logos-ecell"></div>
+          </div>
+        </div>
       </div>
       <div class="margin-top-6rem">
         <div class="aboutme-hobbies-heading">
@@ -181,7 +206,10 @@
 
     <div id="footer">
       <div class="footer-svg-2">
-        <img src="./img/2.svg" alt="" />
+        <img src="./img/Landing/dotted.svg" alt="" />
+      </div>
+      <div class="footer-svg-3">
+        <img src="./img/Landing/dotted.svg" alt="" />
       </div>
       <div class="footer-lets-talk display-flex padding-top-3rem">
         <div>
@@ -221,16 +249,7 @@
           </div>
         </div>
       </div>
+      <div class="footer-line"></div>
     </div>
-    <script>
-      function loaderFunction() {
-        myVar = setTimeout(showLoader, 1000)
-      }
-
-      function showLoader() {
-        document.getElementById('loader').style.display = 'none'
-        document.body.style.overflow = 'visible'
-      }
-    </script>
   </body>
 </html>

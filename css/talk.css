@@ -1,0 +1,86 @@
+.text-color-orange {
+  color: #faa252;
+}
+
+.talk-child1-image {
+  width: 38%;
+  background-image: url('../img/talk/talk.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.talk-parent {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.talk-heading {
+  font-family: Neutrifpro-bold;
+  font-size: 2rem;
+  color: #313e4f;
+}
+
+.talk-form-parent {
+  width: 60%;
+  margin-left: 14.5vw;
+}
+
+.talk-form-element {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.talk-form-element label {
+  font-family: Neutrifpro-regular;
+  font-size: 1rem;
+  color: #313e4f;
+}
+
+.talk-form-element input,
+.talk-form-element textarea,
+.talk-form-element select {
+  background: #f4f4f4;
+  border: 2px solid rgba(79, 102, 195, 0.2);
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Neutrifpro-regular;
+  font-size: 0.9rem;
+  color: #313e4f;
+  padding: 0.3rem;
+}
+
+.talk-form-field-info {
+  font-size: 0.8rem;
+  font-family: Neutrifpro-regular;
+  margin-top: 1rem;
+}
+
+.required-field-star {
+  color: red;
+}
+
+.talk-button-hover {
+  border: none;
+}
+
+.talk-button-hover:hover {
+  cursor: pointer;
+}
+
+.display-flex-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.success-message {
+  font-size: 0.8rem;
+  font-family: Neutrifpro-regular;
+  margin-top: 1rem;
+  color: green;
+  display: none;
+}

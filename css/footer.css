@@ -11,7 +11,19 @@
 
 .footer-svg-2 {
   position: absolute;
-  top: -10px;
+  top: -6rem;
+  right: 0px;
+}
+
+.footer-svg-3 {
+  position: absolute;
+  bottom: 3rem;
+  left: 0px;
+}
+
+.footer-svg-2 > img,
+.footer-svg-3 > img {
+  height: 20vh;
 }
 
 .footer-lets-talk > div {
@@ -32,6 +44,11 @@
   width: 70%;
   justify-content: space-evenly;
   font-family: Neutrifpro-regular;
+}
+
+.footer-line {
+  background: #4f66c3;
+  height: 0.8rem;
 }
 
 .footer-logos-child img {
@@ -56,5 +73,10 @@
 
   .footer-logos-child {
     width: 85%;
+  }
+
+  .footer-svg-2 > img,
+  .footer-svg-3 > img {
+    height: 10vh;
   }
 }

@@ -14,23 +14,43 @@
 }
 .project-img-parent {
   width: 35%;
+  margin-right: 1.75rem;
 }
 .project-img-1 {
   height: 100%;
   width: auto;
-  background-image: url('../img/portfolio_faces-01.svg');
-  background-size: cover;
+  background-image: url('../img/Landing/Project/ingenium.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+}
+.project-img-2 {
+  height: 100%;
+  width: auto;
+  background-image: url('../img/Landing/Project/whatsapp.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+}
+.project-img-3 {
+  height: 100%;
+  width: auto;
+  background-image: url('../img/Landing/Project/convocation.png');
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
 }
 .project-desc {
-  width: 37.5%;
+  width: 52%;
 }
 .project-desc-heading {
   font-family: Neutrifpro-bold;
   color: #606c82;
   font-size: 2rem;
+  line-height: 2.5rem;
   text-align: left;
   margin-bottom: 1rem;
 }
@@ -53,20 +73,20 @@
   border-radius: 5px;
   color: white;
   font-size: 0.9rem;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 4px;
 }
 .margin-left-1rem {
-  margin-left: 1.7rem;
+  margin-left: 1rem;
 }
 .projects-child {
   margin-top: 5rem;
 }
 .project-desc-child {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .project-view-parent {
-  margin: 4rem 0;
+  margin: 7rem 0 4rem 0;
 }
 .project-view-heading {
   font-family: Neutrifpro-bold;
@@ -75,17 +95,17 @@
 }
 .project-view-button-child {
   background: #faa252;
-  border-radius: 10px;
+  border-radius: 0.3rem;
   font-family: Neutrifpro-regular;
   color: white;
   font-size: 0.9rem;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1.5rem;
 }
 .project-view-desc {
-  margin: 2rem 0;
+  margin: 1.2rem 0 2rem 0;
 }
 .project-view-desc > div {
-  width: 70%;
+  width: 75%;
   text-align: center;
   font-size: 1.5rem;
   font-family: Neutrifpro-regular;
@@ -107,7 +127,9 @@
   .project-img-parent {
     width: 100%;
   }
-  .project-img-1 {
+  .project-img-1,
+  .project-img-2,
+  .project-img-3 {
     height: 40vh;
     width: 100%;
   }

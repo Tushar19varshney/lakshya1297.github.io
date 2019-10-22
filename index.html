@@ -13,12 +13,12 @@
     <!-- my own css file -->
 
     <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/loader.css" />
     <link rel="stylesheet" href="css/aboutme.css" />
+    <link rel="stylesheet" href="css/talk.css" />
 
     <link
       rel="stylesheet"
@@ -32,7 +32,8 @@
 
     <!--Custom Fonts-->
     <link rel="stylesheet" href="css/font.css" />
-
+    <script src="./js/navbar.js"></script>
+    <script src="./js/loader.js"></script>
     <!-- Icon Fonts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
@@ -102,7 +103,7 @@
       </div>
       <div class="navbar-child-items">
         <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
-          <li class="nav-item">
+          <li class="nav-item active-nav-link">
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
@@ -115,16 +116,34 @@
             <a class="nav-link" href="./aboutme.html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Let's Talk</a>
+            <a class="nav-link" href="./talk.html">Let's Talk</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
+            <a target="_blank" class="nav-link" href="#">Resume</a>
           </li>
         </ul>
+        <div class="nav-mobile-icons">
+          <img src="img/msg.svg" alt="" />
+        </div>
       </div>
     </nav>
 
     <section id="home" class="home">
+      <div class="home-svg-1">
+        <img src="./img/Vector2.svg" alt="" />
+      </div>
+      <div class="home-svg-2">
+        <img src="./img/Ellipse.svg" alt="" />
+      </div>
+      <div class="home-svg-3">
+        <img src="./img/Ellipse.svg" alt="" />
+      </div>
+      <div class="home-svg-4">
+        <img src="./img/Landing/dotted.svg" alt="" />
+      </div>
+      <div class="home-svg-5">
+        <img src="./img/Landing/dotted.svg" alt="" />
+      </div>
       <div class="home-parent display-flex">
         <div class="home-child-left">
           <div class="home-child-left-first">
@@ -134,9 +153,9 @@
             Lakshya Kumawat
           </div>
           <div class="home-child-left-third">
-            Self taught <b>Product and Experience Designer</b>, who loves to
-            solve problems through the understanding of users and knowledge of
-            design.
+            Self taught <b>Product and Experience Designer</b>,<br />
+            who loves to solve problems through the<br />
+            understanding of users and knowledge of design.
           </div>
           <div class="home-child-left-fourth">
             <a href="#">
@@ -146,13 +165,13 @@
             </a>
           </div>
         </div>
-        <div></div>
+        <div class="home-child-image"></div>
       </div>
     </section>
 
     <section id="projects" class="display-flex">
       <div class="projects-parent">
-        <div class="projects-child display-flex-evenly">
+        <div class="projects-child display-flex-center">
           <div class="project-img-parent">
             <div class="project-img-1"></div>
           </div>
@@ -177,19 +196,19 @@
             </div>
           </div>
         </div>
-        <div class="projects-child display-flex-evenly">
+        <div class="projects-child display-flex-center">
           <div class="project-img-parent">
-            <div class="project-img-1"></div>
+            <div class="project-img-2"></div>
           </div>
           <div class="project-desc">
             <div class="project-desc-heading">
-              Ingenium Educations : Coaching Companion
+              Whatsapp Poll : 1 Day Design Sprint
             </div>
             <div class="project-desc-child display-flex-between">
               <div class="project-desc-line"></div>
               <div class="project-desc-desc">
-                Digital product to help coaching institutes work in an effective
-                and efficient way.
+                One day design challange to introduce polling as a feature in a
+                group chat.
               </div>
             </div>
             <div class="project-desc-button">
@@ -202,69 +221,19 @@
             </div>
           </div>
         </div>
-        <div class="projects-child display-flex-evenly">
+        <div class="projects-child display-flex-center">
           <div class="project-img-parent">
-            <div class="project-img-1"></div>
+            <div class="project-img-3"></div>
           </div>
           <div class="project-desc">
             <div class="project-desc-heading">
-              Ingenium Educations : Coaching Companion
+              Convocation App IITR : Digital Assistance
             </div>
             <div class="project-desc-child display-flex-between">
               <div class="project-desc-line"></div>
               <div class="project-desc-desc">
-                Digital product to help coaching institutes work in an effective
-                and efficient way.
-              </div>
-            </div>
-            <div class="project-desc-button">
-              <a href="#">
-                <div class="project-desc-button-child">
-                  Read More
-                  <i class="fa fa-long-arrow-right margin-left-1rem"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="projects-child display-flex-evenly">
-          <div class="project-img-parent">
-            <div class="project-img-1"></div>
-          </div>
-          <div class="project-desc">
-            <div class="project-desc-heading">
-              Ingenium Educations : Coaching Companion
-            </div>
-            <div class="project-desc-child display-flex-between">
-              <div class="project-desc-line"></div>
-              <div class="project-desc-desc">
-                Digital product to help coaching institutes work in an effective
-                and efficient way.
-              </div>
-            </div>
-            <div class="project-desc-button">
-              <a href="#">
-                <div class="project-desc-button-child">
-                  Read More
-                  <i class="fa fa-long-arrow-right margin-left-1rem"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="projects-child display-flex-evenly">
-          <div class="project-img-parent">
-            <div class="project-img-1"></div>
-          </div>
-          <div class="project-desc">
-            <div class="project-desc-heading">
-              Ingenium Educations : Coaching Companion
-            </div>
-            <div class="project-desc-child display-flex-between">
-              <div class="project-desc-line"></div>
-              <div class="project-desc-desc">
-                Digital product to help coaching institutes work in an effective
-                and efficient way.
+                Digital product to assist and help students who came for the
+                convocation ceremony.
               </div>
             </div>
             <div class="project-desc-button">
@@ -305,7 +274,10 @@
 
     <div id="footer">
       <div class="footer-svg-2">
-        <img src="./img/2.svg" alt="" />
+        <img src="./img/Landing/dotted.svg" alt="" />
+      </div>
+      <div class="footer-svg-3">
+        <img src="./img/Landing/dotted.svg" alt="" />
       </div>
       <div class="footer-lets-talk display-flex padding-top-3rem">
         <div>
@@ -314,9 +286,11 @@
       </div>
       <div class="footer-discription display-flex margin-top-2rem">
         <div>
-          If you want to collab or get in touch with me just drop me a message,
-          or mail me at lakshya.97k@gmail.com will get back to you as soon as
-          possible.
+          If you want to collab or get in touch with me just
+          <span class="text-color-blue"><b>drop me a message</b></span
+          >, or mail me at
+          <span class="text-color-orange"><b>lakshya.97k@gmail.com</b></span>
+          will get back to you as soon as possible.
         </div>
       </div>
       <div
@@ -325,56 +299,27 @@
         <div class="footer-logos-child display-flex">
           <div>
             <img src="" alt="" />
-            <div class="footer-icon-name">Facebook</div>
+            <div>Facebook</div>
           </div>
           <div>
             <img src="" alt="" />
-            <div class="footer-icon-name">Linkedin</div>
+            <div>Linkedin</div>
           </div>
           <div>
             <img src="" alt="" />
-            <div class="footer-icon-name">Medium</div>
+            <div>Medium</div>
           </div>
           <div>
             <img src="" alt="" />
-            <div class="footer-icon-name">Dribble</div>
+            <div>Dribble</div>
           </div>
           <div>
             <img src="" alt="" />
-            <div class="footer-icon-name">Behance</div>
+            <div>Behance</div>
           </div>
         </div>
       </div>
+      <div class="footer-line"></div>
     </div>
-
-    <script>
-      function loaderFunction() {
-        myVar = setTimeout(showLoader, 1000)
-      }
-
-      function showLoader() {
-        document.getElementById('loader').style.display = 'none'
-        document.body.style.overflow = 'visible'
-      }
-      window.addEventListener(
-        'scroll',
-        function() {
-          let doc = document.getElementById('navbar')
-          let scrollTop =
-            window.pageYOffset ||
-            (
-              document.documentElement ||
-              document.body.parentNode ||
-              document.body
-            ).scrollTop
-          if (scrollTop >= 1) {
-            doc.classList.add('box-shadow')
-          } else {
-            doc.classList.remove('box-shadow')
-          }
-        },
-        true
-      )
-    </script>
   </body>
 </html>

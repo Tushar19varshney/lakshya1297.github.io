@@ -148,8 +148,9 @@ html {
   position: absolute;
   width: 100vw;
   top: 0;
+  bottom: 0;
 }
 body {
-  height: 100vh;
+  max-height: 100vh;
   overflow: hidden;
 }

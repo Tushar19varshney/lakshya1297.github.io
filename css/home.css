@@ -1,11 +1,11 @@
 #home {
-  height: 100vh;
+  height: 75vh;
 }
 .home-parent {
   margin-top: 10rem;
 }
 .home-child-left {
-  width: 50%;
+  width: 45%;
 }
 .home-child-left-first {
   font-family: Neutrifpro-regular;
@@ -27,12 +27,117 @@
 }
 .home-child-left-fourth {
   width: fit-content;
-  margin: 1rem 0;
+  margin: 2rem 0 0 0;
 }
 .home-child-left-button {
   background: #faa252;
   font-family: Neutrifpro-regular;
   color: white;
-  font-size: 0.9rem;
-  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  padding: 0.75rem 3.5rem;
+}
+
+.home-child-image {
+  width: 35%;
+  background-image: url('../img/Landing/illus.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.home-svg-1 {
+  position: absolute;
+  left: 5vw;
+  top: 60vh;
+}
+
+.home-svg-1 img,
+.home-svg-2 img,
+.home-svg-3 img {
+  width: 15px;
+  height: 20px;
+  opacity: 0.3;
+}
+
+.home-svg-2 {
+  position: absolute;
+  right: 20vw;
+  top: 25vh;
+}
+
+.home-svg-3 {
+  position: absolute;
+  right: 5vw;
+  top: 40vh;
+}
+
+.home-svg-4 {
+  position: absolute;
+  left: 0;
+  bottom: 2vh;
+}
+
+.home-svg-4 img,
+.home-svg-5 img {
+  height: 20vh;
+  opacity: 0.5;
+}
+
+.home-svg-5 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.text-color-blue {
+  color: #4f66c3;
+}
+
+.display-flex-center {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  #home {
+    height: 100%;
+  }
+  .home-parent {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .home-child-left-first {
+    font-size: 1.5rem;
+  }
+  .home-child-left-second {
+    font-size: 1.8rem;
+  }
+  .home-child-left-third {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .home-child-left {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    order: 2;
+    margin-top: 1rem;
+  }
+  .home-child-image {
+    height: 33vh;
+    width: 100%;
+    order: 1;
+  }
+  .home-child-left-fourth {
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .home-svg-4 img,
+  .home-svg-5 img {
+    height: 10vh;
+    opacity: 0.5;
+  }
 }
