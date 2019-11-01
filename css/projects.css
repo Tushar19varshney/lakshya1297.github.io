@@ -2,6 +2,13 @@
   display: flex;
   justify-content: space-evenly;
 }
+@media screen and (max-width: 768px) {
+  .display-flex-evenly {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
 .display-flex-between {
   display: flex;
   justify-content: space-between;
@@ -44,7 +51,7 @@
   display: flex;
 }
 .project-desc {
-  width: 52%;
+  width: 53%;
 }
 .project-desc-heading {
   font-family: Neutrifpro-bold;
@@ -137,7 +144,8 @@
     width: 100%;
   }
   .project-desc-heading {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
   }
   .project-view-heading {
     font-size: 1.7rem;
@@ -146,5 +154,28 @@
   .project-view-desc > div {
     font-size: 1.1rem;
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .projects-parent {
+    width: 50%;
+    margin: auto;
+    margin-top: 5.5rem;
+  }
+  .project-view-parent {
+    margin: 8rem 0 4rem 0;
+  }
+  .project-view-button-child {
+    font-size: 1rem;
+  }
+  .project-view-heading {
+    font-size: 2.5rem;
+  }
+  .project-desc-desc {
+    font-size: 1.2rem;
+  }
+  .project-desc {
+    width: 50%;
   }
 }

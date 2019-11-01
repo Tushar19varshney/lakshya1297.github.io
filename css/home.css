@@ -2,13 +2,17 @@ a {
   text-decoration: none;
 }
 #home {
-  height: 75vh;
-}
-.home-parent {
-  margin-top: 10rem;
+  height: 100vh;
+  padding-top: 10rem;
 }
 .home-child-left {
   width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-child-left-child{
+  height: fit-content;
 }
 .home-child-left-first {
   font-family: Neutrifpro-regular;
@@ -83,7 +87,7 @@ a {
 
 .home-svg-4 img,
 .home-svg-5 img {
-  height: 20vh;
+  height: 100px;
   opacity: 0.5;
 }
 
@@ -117,9 +121,13 @@ a {
   width: 6vw;
 }
 
+.home-parent {
+  height: 80%;
+}
+
 @media screen and (max-width: 768px) {
   #home {
-    height: 100%;
+    padding-top: 0rem;
   }
   .home-parent {
     flex-direction: column;
@@ -129,7 +137,7 @@ a {
     font-size: 1.5rem;
   }
   .home-child-left-second {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .home-child-left-third {
     font-size: 0.9rem;
@@ -144,13 +152,23 @@ a {
     margin-top: 1rem;
   }
   .home-child-image {
-    height: 33vh;
+    height: 28vh;
     width: 100%;
     order: 1;
   }
   .home-child-left-fourth {
     margin: auto;
     margin-top: 2rem;
+  }
+  .home-svg-1{
+    top: 71vh;
+  }
+  .home-svg-2{
+    top: 17vh;
+    right: 10vw;
+  }
+  .home-svg-3{
+    display: none;
   }
   .home-svg-4 img,
   .home-svg-5 img {
@@ -160,5 +178,27 @@ a {
 
   .mailer-msg {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #home{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .home-child-left {
+    width: 52%;
+  }
+  .home-child-left-first {
+    font-size: 2.4rem;
+  }
+  .home-child-left-second {
+    font-size: 2.7rem;
+  }
+  .home-child-left-third {
+    font-size: 1.9rem;  
+  }
+  .home-child-left-button {
+    font-size: 1.5rem;
   }
 }

@@ -48,25 +48,26 @@
     <script type="text/javascript" src="./js/scrollify.js"></script>
 
     <script>
-      // $(function() {
-      //   $.scrollify({
-      //     section: '.home',
-      //     interstitialSection: '',
-      //     easing: 'easeOutExpo',
-      //     scrollSpeed: 1100,
-      //     offset: 0,
-      //     scrollbars: true,
-      //     standardScrollElements: '',
-      //     setHeights: true,
-      //     overflowScroll: true,
-      //     updateHash: true,
-      //     touchScroll: true,
-      //     before: function() {},
-      //     after: function() {},
-      //     afterResize: function() {},
-      //     afterRender: function() {}
-      //   })
-      // })
+      $(function() {
+        $.scrollify({
+          section: 'section',
+          sectionName: 'home',
+          interstitialSection: '',
+          easing: 'easeOutExpo',
+          scrollSpeed: 1100,
+          offset: 0,
+          scrollbars: true,
+          standardScrollElements: '',
+          setHeights: true,
+          overflowScroll: true,
+          updateHash: true,
+          touchScroll: true,
+          before: function() {},
+          after: function() {},
+          afterResize: function() {},
+          afterRender: function() {}
+        })
+      })
     </script>
   </head>
 
@@ -94,56 +95,60 @@
       id="navbar"
       class="navbar navbar-custom-parent navbar-expand-sm fixed-top"
     >
-      <div class="navbar-child-logo-parent">
-        <div class="navbar-child-logo-child1">
-          <img src="./img/Landing/logo.png" />
+      <div class="nav-grand-parent">
+        <div class="navbar-child-logo-parent">
+          <div class="navbar-child-logo-child1">
+            <img src="./img/Landing/logo.png" />
+          </div>
+          <div class="navbar-child-logo-name">
+            <div>Lakshya Kumawat</div>
+          </div>
         </div>
-        <div class="navbar-child-logo-name">
-          <div>Lakshya Kumawat</div>
-        </div>
-      </div>
-      <div class="navbar-child-items">
-        <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
-          <li class="nav-item active-nav-link">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./project.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blogs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./aboutme.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./talk.html">Let's Talk</a>
-          </li>
-          <li class="nav-item">
-            <a target="_blank" class="nav-link" href="#">Resume</a>
-          </li>
-        </ul>
-        <div class="nav-mobile-icons">
-          <a class="nav-mobile-icons-msg" href="mailto:lakshya.97k@gmail.com">
-            <img src="img/msg.svg" alt="" />
-          </a>
-          <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span class="span-middle-ham"></span>
-            <span></span>
-            <ul id="menu">
-              <div class="menu-list-parent">
-                <a href="#"><li class="active-mobile-nav-link">Home</li></a>
-                <a href="#"><li>Projects</li></a>
-                <a href="#"><li>Blogs</li></a>
-                <a href="#"><li>About Me</li></a>
-                <a href="#"><li>Let's Talk</li></a>
-                <a href="https://erikterwan.com/" target="_blank"
-                  ><li>Resume</li></a
-                >
-              </div>
-            </ul>
+        <div class="navbar-child-items">
+          <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
+            <li class="nav-item active-nav-link">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./project.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./talk.html">Let's Talk</a>
+            </li>
+            <li class="nav-item">
+              <a target="_blank" class="nav-link" href="#">Resume</a>
+            </li>
+          </ul>
+          <div class="nav-mobile-icons">
+            <a class="nav-mobile-icons-msg" href="mailto:lakshya.97k@gmail.com">
+              <img src="img/msg.svg" alt="" />
+            </a>
+            <div id="menuToggle">
+              <input type="checkbox" />
+              <!-- <div class="menu-toggle-span-parent"> -->
+              <span></span>
+              <span class="span-middle-ham"></span>
+              <span></span>
+              <!-- </div> -->
+              <ul id="menu">
+                <div class="menu-list-parent">
+                  <a href="#"><li class="active-mobile-nav-link">Home</li></a>
+                  <a href="#"><li>Projects</li></a>
+                  <a href="#"><li>Blogs</li></a>
+                  <a href="#"><li>About Me</li></a>
+                  <a href="#"><li>Let's Talk</li></a>
+                  <a href="https://erikterwan.com/" target="_blank"
+                    ><li>Resume</li></a
+                  >
+                </div>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -151,7 +156,7 @@
 
     <div class="mailer-msg">
       <a href="mailto:lakshya.97k@gmail.com">
-        <img border="0" src="./img/icon.svg" alt="" />
+        <img src="./img/icon.svg" alt="" />
       </a>
     </div>
 
@@ -173,23 +178,25 @@
       </div>
       <div class="home-parent display-flex">
         <div class="home-child-left">
-          <div class="home-child-left-first">
-            Hi! I am
-          </div>
-          <div class="home-child-left-second">
-            Lakshya Kumawat
-          </div>
-          <div class="home-child-left-third">
-            Self taught <b>Product and Experience Designer</b>,<br />
-            who loves to solve problems through the<br />
-            understanding of users and knowledge of design.
-          </div>
-          <div class="home-child-left-fourth">
-            <a href="#">
-              <div class="home-child-left-button">
-                View more
-              </div>
-            </a>
+          <div class="home-child-left-child">
+            <div class="home-child-left-first">
+              Hi! I am
+            </div>
+            <div class="home-child-left-second">
+              Lakshya Kumawat
+            </div>
+            <div class="home-child-left-third">
+              Self taught <b>Product and Experience Designer</b>,<br />
+              who loves to solve problems through the<br />
+              understanding of users and knowledge of design.
+            </div>
+            <div class="home-child-left-fourth">
+              <a href="#">
+                <div class="home-child-left-button">
+                  View more
+                </div>
+              </a>
+            </div>
           </div>
         </div>
         <div class="home-child-image"></div>
@@ -295,7 +302,7 @@
       </div>
     </section>
 
-    <section id="blogs">
+    <div id="blogs">
       <div class="blogs-home-parent padding-top-3rem">
         <div class="blogs-home-child-heading">
           Blogs
@@ -306,89 +313,91 @@
           <div class="blogs-home-child-image3"></div>
         </div>
       </div>
-    </section>
+    </div>
 
     <div id="footer" class="margin-top-6rem">
-      <div class="footer-svg-2">
-        <img src="./img/Landing/dotted.svg" alt="" />
-      </div>
-      <div class="footer-svg-3">
-        <img src="./img/Landing/dotted.svg" alt="" />
-      </div>
-      <div class="footer-lets-talk display-flex padding-top-3rem">
-        <div>
-          Let's Talk
+      <div class="footer-parent-child">
+        <div class="footer-svg-2">
+          <img src="./img/Landing/dotted.svg" alt="" />
         </div>
-      </div>
-      <div class="footer-discription display-flex margin-top-2rem">
-        <div>
-          If you want to collab or get in touch with me just
-          <span>
-            <a class="text-color-blue" href="./talk.html">
-              <b>drop me a message</b>
-            </a> </span
-          >, or mail me at
-          <span>
-            <a class="text-color-orange" href="mailto:lakshya.97k@gmail.com">
-              <b>lakshya.97k@gmail.com</b>
-            </a>
-          </span>
-          will get back to you as soon as possible.
+        <div class="footer-svg-3">
+          <img src="./img/Landing/dotted.svg" alt="" />
         </div>
-      </div>
-      <div
-        class="footer-logos display-flex margin-top-2rem padding-bottom-2rem"
-      >
-        <div class="footer-logos-child display-flex">
+        <div class="footer-lets-talk display-flex padding-top-3rem">
           <div>
-            <a
-              class="footer-logo-child-child footer-logos-fb"
-              target="_blank"
-              href="https://www.facebook.com/lakshya.kumawat.161"
-            >
-              <img src="./img/Footer/f.svg" alt="" />
-              <div class="footer-logos-text-fb">Facebook</div>
-            </a>
+            Let's Talk
           </div>
+        </div>
+        <div class="footer-discription display-flex margin-top-2rem">
           <div>
-            <a
-              class="footer-logo-child-child footer-logos-ln"
-              target="_blank"
-              href="https://www.linkedin.com/in/lakshya-kumawat-422349128/"
-            >
-              <img src="./img/Footer/l.svg" alt="" />
-              <div class="footer-logos-text-ln">Linkedin</div>
-            </a>
+            If you want to collab or get in touch with me just
+            <span>
+              <a class="text-color-blue" href="./talk.html">
+                <b>drop me a message</b>
+              </a> </span
+            >, or mail me at
+            <span>
+              <a class="text-color-orange" href="mailto:lakshya.97k@gmail.com">
+                <b>lakshya.97k@gmail.com</b>
+              </a>
+            </span>
+            will get back to you as soon as possible.
           </div>
-          <div>
-            <a
-              class="footer-logo-child-child footer-logos-m"
-              target="_blank"
-              href="https://medium.com/@lakshyakumawat_943"
-            >
-              <img src="./img/Footer/m.svg" alt="" />
-              <div class="footer-logos-text-m">Medium</div>
-            </a>
-          </div>
-          <div>
-            <a
-              class="footer-logo-child-child footer-logos-d"
-              target="_blank"
-              href="https://dribbble.com/lakshya07"
-            >
-              <img src="./img/Footer/d.svg" alt="" />
-              <div class="footer-logos-text-d">Dribbble</div>
-            </a>
-          </div>
-          <div>
-            <a
-              class="footer-logo-child-child footer-logos-b"
-              target="_blank"
-              href="https://www.behance.net/lakshya07"
-            >
-              <img src="./img/Footer/b.svg" alt="" />
-              <div class="footer-logos-text-b">Behance</div>
-            </a>
+        </div>
+        <div
+          class="footer-logos display-flex margin-top-2rem padding-bottom-2rem"
+        >
+          <div class="footer-logos-child display-flex">
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-fb"
+                target="_blank"
+                href="https://www.facebook.com/lakshya.kumawat.161"
+              >
+                <img src="./img/Footer/f.svg" alt="" />
+                <div class="footer-logos-text-fb">Facebook</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-ln"
+                target="_blank"
+                href="https://www.linkedin.com/in/lakshya-kumawat-422349128/"
+              >
+                <img src="./img/Footer/l.svg" alt="" />
+                <div class="footer-logos-text-ln">Linkedin</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-m"
+                target="_blank"
+                href="https://medium.com/@lakshyakumawat_943"
+              >
+                <img src="./img/Footer/m.svg" alt="" />
+                <div class="footer-logos-text-m">Medium</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-d"
+                target="_blank"
+                href="https://dribbble.com/lakshya07"
+              >
+                <img src="./img/Footer/d.svg" alt="" />
+                <div class="footer-logos-text-d">Dribbble</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-b"
+                target="_blank"
+                href="https://www.behance.net/lakshya07"
+              >
+                <img src="./img/Footer/b.svg" alt="" />
+                <div class="footer-logos-text-b">Behance</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

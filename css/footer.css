@@ -11,7 +11,7 @@
 
 .footer-svg-2 {
   position: absolute;
-  top: -6rem;
+  top: -5rem;
   right: 0px;
 }
 
@@ -23,7 +23,7 @@
 
 .footer-svg-2 > img,
 .footer-svg-3 > img {
-  height: 20vh;
+  height: 100px;
 }
 
 .footer-lets-talk > div {
@@ -73,6 +73,7 @@
 
 .footer-logo-child-child > div {
   color: #606c82;
+  text-align: center;
 }
 
 .footer-logos-text-fb:hover {
@@ -125,7 +126,7 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .footer-icon-name {
     display: none;
   }
@@ -136,6 +137,7 @@
 
   .footer-logos-child {
     width: 85%;
+    z-index: 1000000;
   }
 
   .footer-svg-2 > img,
@@ -153,5 +155,25 @@
   }
   .footer-discription > div {
     line-height: 2rem;
+  }
+  .footer-lets-talk > div{
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-parent-child{
+    width: 67%;
+    margin: auto;
+  }
+  .footer-logo-child-child img {
+    height: 4vh;
+    width: 2vw;
+  }
+  .footer-discription > div {
+    font-size: 1.3rem;
+  }
+  .footer-lets-talk > div{
+    font-size: 2.5rem;
   }
 }

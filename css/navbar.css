@@ -4,7 +4,7 @@ nav {
 }
 
 .navbar-child-items ul {
-  height: 89%;
+  height: 76%;
 }
 
 .nav-mobile-icons {
@@ -14,8 +14,6 @@ nav {
 .navbar-child-items ul li a {
   position: relative;
   color: #202020;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
 }
@@ -89,7 +87,7 @@ nav {
     height: 1.2rem;
   }
   .navbar-child-logo-name div {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .navbar-child-logo-parent {
     width: 68%;
@@ -100,6 +98,9 @@ nav {
   }
   .navbar-child-items {
     width: 32%;
+  }
+  .menu-toggle-span-parent {
+    margin-top: 0.2rem;
   }
 
   #menuToggle {
@@ -140,8 +141,8 @@ nav {
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    background: 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
 
   #menuToggle span:hover {
@@ -179,7 +180,7 @@ nav {
     padding: 50px;
     padding-top: 125px;
     right: -100px;
-    height: 110vh;
+    height: 115vh;
     background: #4f66c3;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -220,7 +221,7 @@ nav {
   }
   .nav-mobile-icons-msg {
     margin-left: 1rem;
-    margin-top: 0.75rem;
+    display: flex;
   }
 }
 
@@ -232,4 +233,51 @@ nav {
 
 .active-nav-link {
   border-bottom: 0.1rem solid #f4a654;
+}
+
+.nav-grand-parent {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 414px) and (min-width: 411px) {
+  #menuToggle {
+    top: 1.45rem;
+  }
+}
+@media screen and (max-width: 410px) and (min-width: 361px) {
+  #menuToggle {
+    top: 1.4rem;
+  }
+}
+@media screen and (min-height: 775px) {
+  #menuToggle {
+    top: 1.75rem;
+  }
+}
+@media screen and (max-width: 359px) {
+  #menuToggle {
+    top: 1.05rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .nav-grand-parent {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .nav-item a {
+    font-size: 1.25rem;
+  }
+  .navbar-child-logo-name > div {
+    font-size: 1.8rem;
+  }
+  .navbar-child-logo-child1 img {
+    height: 1.7rem;
+  }
+  .active-nav-link {
+    border-bottom: 0.155rem solid #f4a654;
+  }
+  .navbar-child-items ul {
+    height: 68%;
+  }
 }

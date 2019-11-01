@@ -68,3 +68,25 @@
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (min-width:1400px){
+  .blogs-home-parent {
+    width: 50%;
+    margin: auto;
+  }
+  .blogs-home-child-image1{
+    width: 25%;
+  }
+  .blogs-home-child-image2{
+    width: 25%;
+  }
+  .blogs-home-child-image3{
+    width: 25%;
+  }
+  .blogs-home-child{
+    margin-top: 0rem;
+  }
+  .blogs-home-child-heading{
+    font-size: 2.5rem;
+  }
+}
