@@ -2,6 +2,7 @@
   width: 65%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 7rem;
 }
 
 .blogs-home-child-heading {
@@ -69,24 +70,25 @@
   }
 }
 
-@media screen and (min-width:1400px){
+@media screen and (min-width: 1400px) {
   .blogs-home-parent {
     width: 50%;
     margin: auto;
+    padding-top: 3rem;
   }
-  .blogs-home-child-image1{
+  .blogs-home-child-image1 {
     width: 25%;
   }
-  .blogs-home-child-image2{
+  .blogs-home-child-image2 {
     width: 25%;
   }
-  .blogs-home-child-image3{
+  .blogs-home-child-image3 {
     width: 25%;
   }
-  .blogs-home-child{
+  .blogs-home-child {
     margin-top: 0rem;
   }
-  .blogs-home-child-heading{
+  .blogs-home-child-heading {
     font-size: 2.5rem;
   }
 }

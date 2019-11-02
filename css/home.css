@@ -11,7 +11,7 @@ a {
   flex-direction: column;
   justify-content: center;
 }
-.home-child-left-child{
+.home-child-left-child {
   height: fit-content;
 }
 .home-child-left-first {
@@ -160,14 +160,14 @@ a {
     margin: auto;
     margin-top: 2rem;
   }
-  .home-svg-1{
+  .home-svg-1 {
     top: 71vh;
   }
-  .home-svg-2{
+  .home-svg-2 {
     top: 17vh;
     right: 10vw;
   }
-  .home-svg-3{
+  .home-svg-3 {
     display: none;
   }
   .home-svg-4 img,
@@ -182,7 +182,7 @@ a {
 }
 
 @media screen and (min-width: 1400px) {
-  #home{
+  #home {
     width: 75%;
     margin: 0 auto;
   }
@@ -196,7 +196,7 @@ a {
     font-size: 2.7rem;
   }
   .home-child-left-third {
-    font-size: 1.9rem;  
+    font-size: 1.9rem;
   }
   .home-child-left-button {
     font-size: 1.5rem;

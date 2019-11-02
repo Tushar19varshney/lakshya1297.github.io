@@ -1,5 +1,5 @@
 .aboutme-parent-div {
-  width: 74%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10rem;
@@ -7,6 +7,11 @@
 
 .aboutme-child1-image {
   width: 45%;
+  background-image: url('../img/Aboutme/0.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
 }
 
 .aboutme-child1-description {
@@ -14,32 +19,35 @@
   font-family: Neutrifpro-regular;
   color: #606c82;
   text-align: left;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
   width: 45%;
 }
 
 .aboutme-hobbies-parent {
+  margin-top: 7rem;
 }
 
 .aboutme-hobbies-heading {
   font-family: Neutrifpro-bold;
   font-size: 2rem;
+  line-height: 4rem;
   text-align: center;
   color: #313e4f;
 }
 
 .aboutme-hobbies-child {
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .aboutme-hobbies-child-element {
   width: 23%;
 }
-
 .aboutme-hobbies-child-element-image {
 }
 
 .aboutme-hobbies-child-element-image1 {
-  height: 20vh;
+  height: 17vh;
   width: auto;
   background-image: url('../img/Aboutme/potterhead.svg');
   background-repeat: no-repeat;
@@ -49,7 +57,7 @@
 }
 
 .aboutme-hobbies-child-element-image2 {
-  height: 20vh;
+  height: 17vh;
   width: auto;
   background-image: url('../img/Aboutme/music.svg');
   background-repeat: no-repeat;
@@ -58,7 +66,7 @@
   background-size: contain;
 }
 .aboutme-hobbies-child-element-image3 {
-  height: 20vh;
+  height: 17vh;
   width: auto;
   background-image: url('../img/Aboutme/fortnite.svg');
   background-repeat: no-repeat;
@@ -67,7 +75,7 @@
   background-size: contain;
 }
 .aboutme-hobbies-child-element-image4 {
-  height: 20vh;
+  height: 17vh;
   width: auto;
   background-image: url('../img/Aboutme/cricket.svg');
   background-repeat: no-repeat;
@@ -85,9 +93,22 @@
 
 .aboutme-hobbies-child-element-description {
   font-family: Neutrifpro-regular;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
+  margin-top: 0.4rem;
   color: #606c82;
+}
+
+.aboutme-experience-parent {
+  margin-top: 8rem;
+}
+
+.aboutme-experinece-child1 {
+  margin-top: 3rem;
+}
+
+.aboutme-surrounding-parent {
+  margin-top: 6rem;
 }
 
 .margin-top-6rem {
@@ -99,14 +120,14 @@
 }
 
 @media screen and (min-width: 1400px) {
-  .margin-top-6rem{
+  .margin-top-6rem {
     margin-top: 4rem;
   }
 }
 
 .social-surrounding-description {
   font-family: Neutrifpro-regular;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-align: center;
   color: #606c82;
 }
@@ -177,7 +198,7 @@
 
 .aboutme-experience-logos-pl {
   height: 100%;
-  width: 12%;
+  width: 8.5%;
   background-image: url('../img/Aboutme/pl.png');
   background-repeat: no-repeat;
   background-position: center center;
@@ -203,4 +224,83 @@
   background-position: center center;
   display: flex;
   background-size: 86%;
+}
+
+.aboutme-portfolio-section {
+  margin-top: 2rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 34vh;
+}
+
+.aboutme-portfolio-image-1 {
+  width: 31%;
+  background-image: url('../img/Aboutme/1.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-portfolio-image-2 {
+  width: 31%;
+  background-image: url('../img/Aboutme/2.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-portfolio-image-3 {
+  width: 31%;
+  background-image: url('../img/Aboutme/3.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-portfolio-image-4 {
+  width: 31%;
+  background-image: url('../img/Aboutme/4.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-portfolio-image-5 {
+  width: 65.5%;
+  background-image: url('../img/Aboutme/5.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-portfolio-section-3 {
+  margin-top: 2rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 48vh;
+}
+
+.aboutme-portfolio-image-6 {
+  width: 60%;
+  background-image: url('../img/Aboutme/6.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
+}
+
+.aboutme-portfolio-image-7 {
+  width: 36.5%;
+  background-image: url('../img/Aboutme/7.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  background-size: contain;
 }
