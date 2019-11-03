@@ -1,0 +1,36 @@
+.all-blogs-img-2 {
+  height: 33vh;
+  background-image: url('../img/Landing/Project/whatsapp.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  border-radius: 5px;
+}
+.all-blogs-img-3 {
+  height: 33vh;
+  background-image: url('../img/Landing/Project/convocation.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1399px) {
+  .all-blogs-img-2 {
+    background-size: cover;
+  }
+  .all-blogs-img-3 {
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .all-blogs-img-2 {
+    height: 27vh;
+  }
+  .all-blogs-img-3 {
+    height: 27vh;
+  }
+}

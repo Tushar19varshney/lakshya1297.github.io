@@ -137,7 +137,6 @@
 
   .footer-logos-child {
     width: 85%;
-    z-index: 1000000;
   }
 
   .footer-svg-2 > img,
@@ -156,13 +155,13 @@
   .footer-discription > div {
     line-height: 2rem;
   }
-  .footer-lets-talk > div{
+  .footer-lets-talk > div {
     font-size: 1.8rem;
   }
 }
 
 @media screen and (min-width: 1400px) {
-  .footer-parent-child{
+  .footer-parent-child {
     width: 67%;
     margin: auto;
   }
@@ -173,7 +172,7 @@
   .footer-discription > div {
     font-size: 1.3rem;
   }
-  .footer-lets-talk > div{
+  .footer-lets-talk > div {
     font-size: 2.5rem;
   }
 }
