@@ -129,101 +129,147 @@
   font-family: Neutrifpro-regular;
   font-size: 1.3rem;
   text-align: center;
+  margin-bottom: 5rem;
   color: #606c82;
 }
 
-.aboutme-experience-height {
+/* .aboutme-experience-height {
   height: 20vh;
-}
+} */
 
 .aboutme-experience-logos-ms {
-  height: 100%;
+  height: 10vh;
   width: 30%;
   background-image: url('../img/Aboutme/microsoft.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
+  margin-top: 1rem;
+  margin-bottom:3rem;
   background-size: contain;
 }
 
 .aboutme-experience-logos-rm {
-  height: 100%;
+  height: 10vh;
   width: 30%;
   background-image: url('../img/Aboutme/rentomojo.png');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
+  margin-top: 1rem;
+  margin-bottom:3rem;
   background-size: contain;
 }
 
 .aboutme-experience-logos-in {
-  height: 100%;
+  height: 10vh;
   width: 30%;
   background-image: url('../img/Aboutme/ingenium.png');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
-  background-size: 86%;
+  margin-top: 1rem;
+  margin-bottom:3rem;
+  background-size: 70%;
 }
 
 .aboutme-experience-logos-cogni {
-  height: 100%;
+  height: 10vh;
   width: 30%;
   background-image: url('../img/Aboutme/cogni.png');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
+  margin-bottom:3rem;
   background-size: contain;
 }
 
 .aboutme-experience-logos-ted {
-  height: 100%;
-  width: 30%;
+  height: 10vh;
+  width: 34%;
   background-image: url('../img/Aboutme/tedx.png');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
+  margin-bottom:3rem;
   background-size: contain;
 }
 
 .aboutme-experience-logos-esummit {
-  height: 100%;
+  height: 10vh;
   width: 30%;
   background-image: url('../img/Aboutme/esummit.png');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
-  background-size: contain;
+  margin-bottom:3rem;
+  background-size: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutme-experience-height{
+    flex-direction: row;
+  }
+  .aboutme-experience-logos-in {
+    margin-top: 0rem;
+  }
+  .aboutme-experience-logos-ms,
+  .aboutme-experience-logos-rm ,
+  .aboutme-experience-logos-in ,
+  .aboutme-experience-logos-cogni ,
+  .aboutme-experience-logos-ted ,
+  .aboutme-experience-logos-esummit  {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  .aboutme-experience-logos-esummit{
+    background-size: 92%;
+  }
 }
 
 .aboutme-experience-logos-pl {
-  height: 100%;
+  height: 10vh;
   width: 8.5%;
   background-image: url('../img/Aboutme/pl.png');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
+  margin-bottom:3rem;
   background-size: contain;
 }
 
 .aboutme-experience-logos-ds {
-  height: 100%;
+  height: 10vh;
   width: 20%;
   background-image: url('../img/Aboutme/ds.png');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
+  margin-bottom:3rem;
   background-size: contain;
 }
 
 .aboutme-experience-logos-ecell {
-  height: 100%;
+  height: 10vh;
   width: 20%;
   background-image: url('../img/Aboutme/ecell.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
+  margin-bottom:3rem;
   background-size: 86%;
+}
+@media screen and (max-width: 768px) {
+  .aboutme-experience-logos-pl{
+    width: 15%;
+    margin-right: 0.7rem;
+  }
+  .aboutme-experience-logos-ds{
+    width: 32%;
+  }
+  .aboutme-experience-logos-ecell{
+    width: 38%;
+  }
 }
 
 .aboutme-portfolio-section {
@@ -279,14 +325,6 @@
   background-size: contain;
 }
 
-.aboutme-portfolio-section-3 {
-  margin-top: 2rem;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 48vh;
-}
-
 .aboutme-portfolio-image-6 {
   width: 60%;
   background-image: url('../img/Aboutme/6.png');
@@ -303,4 +341,99 @@
   background-position: center center;
   display: flex;
   background-size: contain;
+}
+@media screen and (max-width: 768px) {
+  .aboutme-experinece-child1{
+    margin-top: 0rem;
+  }
+  .aboutme-experience-height{
+    margin-top: 1rem;
+  }
+  .aboutme-parent-div{
+    width: 80%;
+    margin-top: 5rem;
+  }
+  .aboutme-child1-image{
+    height: 36vh;
+    width: 100%;
+  }
+  .aboutme-child1-description{
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-top: 2rem;
+  }
+  .aboutme-child1-description br{
+    display: none;
+  }
+  #specific-br{
+    display: inline;
+  }
+  .aboutme-hobbies-heading{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+  .aboutme-hobbies-child{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0rem;
+  }
+  .aboutme-hobbies-parent{
+    margin-top: 4rem;
+  }
+  .aboutme-hobbies-child-element{
+    width: 50%;
+    margin-top: 2rem;
+  }
+  .aboutme-hobbies-child-element-image1,
+  .aboutme-hobbies-child-element-image2,
+  .aboutme-hobbies-child-element-image3,
+  .aboutme-hobbies-child-element-image4{
+    height: 12vh;
+  }
+  .aboutme-hobbies-child-element-heading{
+    font-size: 1.3rem;
+  }
+  .mobile-margin-top{
+    margin-top: 1.5rem;
+  }
+  .aboutme-hobbies-child-element-description{
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  }
+  .aboutme-experience-parent{
+    margin-top: 4rem;
+  }
+  .aboutme-surrounding-parent{
+    margin-top: 2rem;
+  }
+  .social-surrounding-description{
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .aboutme-parent-div{
+    margin-top: 13rem;
+    width: 55%;
+  }
+  .aboutme-hobbies-heading{
+    font-size: 2.5rem;
+  }
+  .aboutme-child1-description{
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    width: 50%;
+  }
+  .aboutme-portfolio-section {
+    height: 26vh;
+  }
+  .aboutme-hobbies-child-element-image1,
+  .aboutme-hobbies-child-element-image2,
+  .aboutme-hobbies-child-element-image3,
+  .aboutme-hobbies-child-element-image4{
+    height: 14vh;
+  }
 }

@@ -119,6 +119,7 @@ a {
 .mailer-msg img {
   height: 12vh;
   width: 6vw;
+  border-radius: 50%;
 }
 
 .home-parent {
