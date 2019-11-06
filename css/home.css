@@ -5,6 +5,14 @@ a {
   height: 100vh;
   padding-top: 10rem;
 }
+.display-flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.display-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
 .home-child-left {
   width: 45%;
   display: flex;
