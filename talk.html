@@ -45,6 +45,8 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+
+    <link rel="shortcut icon" type="image/png" href="img/Landing/logo.png" />
   </head>
 
   <body onload="loaderFunction()">
@@ -72,62 +74,73 @@
       class="navbar navbar-custom-parent navbar-expand-sm fixed-top"
     >
       <div class="nav-grand-parent">
-      <div class="navbar-child-logo-parent">
-        <div class="navbar-child-logo-child1">
-          <img src="./img/Landing/logo.png" />
-        </div>
-        <div class="navbar-child-logo-name">
-          <div>Lakshya Kumawat</div>
-        </div>
-      </div>
-      <div class="navbar-child-items">
-        <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./project.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./blogs.html">Blogs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./aboutme.html">About Me</a>
-          </li>
-          <li class="nav-item  active-nav-link">
-            <a class="nav-link" href="#">Let's Talk</a>
-          </li>
-          <li class="nav-item">
-            <a target="_blank" class="nav-link" href="./resume/Lakshya Resume.pdf">Resume</a>
-          </li>
-        </ul>
-        <div class="nav-mobile-icons">
-          <a class="nav-mobile-icons-msg" href="mailto:lakshya.97k@gmail.com">
-            <img src="img/msg.svg" alt="" />
+        <div class="navbar-child-logo-parent">
+          <a href="index.html">
+            <div class="navbar-child-logo-child-container">
+              <div class="navbar-child-logo-child1">
+                <img src="./img/Landing/logo.png" />
+              </div>
+              <div class="navbar-child-logo-name">
+                <div>Lakshya Kumawat</div>
+              </div>
+            </div>
           </a>
-          <div id="menuToggle">
-            <input type="checkbox" />
-            <!-- <div class="menu-toggle-span-parent"> -->
+        </div>
+        <div class="navbar-child-items">
+          <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./project.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item  active-nav-link">
+              <a class="nav-link" href="talk.html">Let's Talk</a>
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="./resume/Lakshya Resume.pdf"
+                >Resume</a
+              >
+            </li>
+          </ul>
+          <div class="nav-mobile-icons">
+            <a class="nav-mobile-icons-msg" href="mailto:lakshya.97k@gmail.com">
+              <img src="img/msg.svg" alt="" />
+            </a>
+            <div id="menuToggle">
+              <input type="checkbox" />
+              <!-- <div class="menu-toggle-span-parent"> -->
               <span></span>
               <span class="span-middle-ham"></span>
               <span></span>
-            <!-- </div> -->
-            <ul id="menu">
-              <div class="menu-list-parent">
-                <a href="./index.html"><li>Home</li></a>
-                <a href="./project.html"><li>Projects</li></a>
-                <a href="./blogs.html"><li>Blogs</li></a>
-                <a href="./aboutme.html"><li>About Me</li></a>
-                <a href="./talk.html"><li class="active-mobile-nav-link">Let's Talk</li></a>
-                <a href="./resume/Lakshya Resume.pdf" target="_blank"
-                  ><li>Resume</li></a
-                >
-              </div>
-            </ul>
+              <!-- </div> -->
+              <ul id="menu">
+                <div class="menu-list-parent">
+                  <a href="./index.html"><li>Home</li></a>
+                  <a href="./project.html"><li>Projects</li></a>
+                  <a href="./blogs.html"><li>Blogs</li></a>
+                  <a href="./aboutme.html"><li>About Me</li></a>
+                  <a href="./talk.html"
+                    ><li class="active-mobile-nav-link">Let's Talk</li></a
+                  >
+                  <a href="./resume/Lakshya Resume.pdf" target="_blank"
+                    ><li>Resume</li></a
+                  >
+                </div>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </nav>
 
     <div class="mailer-msg">
@@ -145,7 +158,7 @@
           </div>
           <div class="talk-main-desc margin-top-talk-desc">
             I am available for freelance and other challanging<br />
-            opportunities, if you have it do connect, would love<br />
+            opportunities, connect with me and I would love<br />
             to collab with you. <br /><br />
             Don’t like forms?
             <span>
@@ -180,8 +193,9 @@
               >Enquiry Topic<span class="required-field-star">*</span>
             </label>
             <select name="enquiry">
-              <option value="Project Enquiry" selected>Project Enquiry</option>
-              <option value="Other">Other</option>
+              <option value="Project Enquiry" selected>Freelance</option>
+              <option value="Other">Job Opportunity</option>
+              <option value="Other">Other Collaboration</option>
             </select>
           </div>
           <div class="talk-form-element">
@@ -222,7 +236,7 @@
     </div>
 
     <div id="footer" class="margin-top-6rem">
-        <div class="footer-parent-child">
+      <div class="footer-parent-child">
         <div class="footer-svg-2">
           <img src="./img/Landing/dotted.svg" alt="" />
         </div>
@@ -292,7 +306,7 @@
         </div>
       </div>
       <div class="footer-line"></div>
-      </div>
+    </div>
     <script>
       var submitform = false
       var $form = $('form#talk-form'),

@@ -44,6 +44,8 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+
+    <link rel="shortcut icon" type="image/png" href="img/Landing/logo.png" />
   </head>
 
   <body onload="loaderFunction()">
@@ -72,12 +74,16 @@
     >
       <div class="nav-grand-parent">
         <div class="navbar-child-logo-parent">
-          <div class="navbar-child-logo-child1">
-            <img src="./img/Landing/logo.png" />
-          </div>
-          <div class="navbar-child-logo-name">
-            <div>Lakshya Kumawat</div>
-          </div>
+          <a href="index.html">
+            <div class="navbar-child-logo-child-container">
+              <div class="navbar-child-logo-child1">
+                <img src="./img/Landing/logo.png" />
+              </div>
+              <div class="navbar-child-logo-name">
+                <div>Lakshya Kumawat</div>
+              </div>
+            </div>
+          </a>
         </div>
         <div class="navbar-child-items">
           <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
@@ -91,13 +97,18 @@
               <a class="nav-link" href="./blogs.html">Blogs</a>
             </li>
             <li class="nav-item  active-nav-link">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="./aboutme.html">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./talk.html">Let's Talk</a>
             </li>
             <li class="nav-item">
-              <a target="_blank" class="nav-link" href="./resume/Lakshya Resume.pdf">Resume</a>
+              <a
+                target="_blank"
+                class="nav-link"
+                href="./resume/Lakshya Resume.pdf"
+                >Resume</a
+              >
             </li>
           </ul>
           <div class="nav-mobile-icons">
@@ -116,7 +127,9 @@
                   <a href="./index.html"><li>Home</li></a>
                   <a href="./project.html"><li>Projects</li></a>
                   <a href="./blogs.html"><li>Blogs</li></a>
-                  <a href="#"><li class="active-mobile-nav-link">About Me</li></a>
+                  <a href="#"
+                    ><li class="active-mobile-nav-link">About Me</li></a
+                  >
                   <a href="./talk.html"><li>Let's Talk</li></a>
                   <a href="./resume/Lakshya Resume.pdf" target="_blank"
                     ><li>Resume</li></a

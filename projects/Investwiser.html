@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<!-- this is html page from which you can view the portfolio website -->
+<html lang="en">
+  <head>
+    <!-- unicode characters -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Lakshya Portfolio" />
+    <meta name="author" content="Lakshya Kumawat" />
+    <title>Investwiser</title>
+    <!-- my own css file -->
+
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/projects.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/loader.css" />
+    <link rel="stylesheet" href="../css/aboutme.css" />
+    <link rel="stylesheet" href="../css/allprojects.css" />
+    <link rel="stylesheet" href="../css/talk.css" />
+    <link rel="stylesheet" href="./css/projectscontent.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300"
+      rel="stylesheet"
+    />
+
+    <!--Custom Fonts-->
+    <link rel="stylesheet" href="../css/font.css" />
+
+    <script src="../js/navbar.js"></script>
+    <script src="../js/loader.js"></script>
+
+    <!-- Icon Fonts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="shortcut icon" type="image/png" href="../img/Landing/logo.png">
+  </head>
+
+  <body onload="loaderFunction()">
+    <div id="loader" class="loader-parent">
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+          <circle id="test" cx="40" cy="40" r="32"></circle>
+        </svg>
+      </div>
+
+      <div class="loader triangle">
+        <svg viewBox="0 0 86 80">
+          <polygon points="43 8 79 72 7 72"></polygon>
+        </svg>
+      </div>
+
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+          <rect x="8" y="8" width="64" height="64"></rect>
+        </svg>
+      </div>
+    </div>
+    <nav
+      id="navbar"
+      class="navbar navbar-custom-parent navbar-expand-sm fixed-top"
+    >
+      <div class="nav-grand-parent">
+        <div class="navbar-child-logo-parent">
+          <a href="../index.html">
+            <div class="navbar-child-logo-child-container">
+              <div class="navbar-child-logo-child1">
+                <img src="../img/Landing/logo.png" />
+              </div>
+              <div class="navbar-child-logo-name">
+                <div>Lakshya Kumawat</div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="navbar-child-items">
+          <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../project.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../talk.html">Let's Talk</a>
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="../resume/Lakshya Resume.pdf"
+                >Resume</a
+              >
+            </li>
+          </ul>
+          <div class="nav-mobile-icons">
+            <a class="nav-mobile-icons-msg" href="mailto:lakshya.97k@gmail.com">
+              <img src="../img/msg.svg" alt="" />
+            </a>
+            <div id="menuToggle">
+              <input type="checkbox" />
+              <!-- <div class="menu-toggle-span-parent"> -->
+              <span></span>
+              <span class="span-middle-ham"></span>
+              <span></span>
+              <!-- </div> -->
+              <ul id="menu">
+                <div class="menu-list-parent">
+                  <a href="../index.html"><li>Home</li></a>
+                  <a href="#"
+                    ><li class="active-mobile-nav-link">Projects</li></a
+                  >
+                  <a href="../blogs.html"><li>Blogs</li></a>
+                  <a href="../aboutme.html"><li>About Me</li></a>
+                  <a href="../talk.html"><li>Let's Talk</li></a>
+                  <a href="../resume/Lakshya Resume.pdf" target="_blank"
+                    ><li>Resume</li></a
+                  >
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="mailer-msg">
+      <a href="mailto:lakshya.97k@gmail.com">
+        <img src="./img/icon.svg" alt="" />
+      </a>
+    </div>
+
+    <div class="indi-project-parent">
+      <div class="arrow-heading-parent display-flex-between">
+        <div class="arrow-heading-first-child">
+          <a href="animation.html" class="display-flex-start">
+            <div class="arrow-heading-first-child-icon">
+              <i class="fa fa-long-arrow-left"></i>
+            </div>
+            <div class="arrow-heading-first-child-text">
+              Previous
+            </div>
+          </a>
+        </div>
+        <div class="arrow-heading-text-parent">
+          <div class="arrow-heading-text-big">InvestWiser</div>
+          <div class="arrow-heading-text-small">Product Design</div>
+        </div>
+        <div class="arrow-heading-first-child">
+          <a href="Microsoft.html" class="display-flex-end">
+            <div class="arrow-heading-first-child-text">
+              Next
+            </div>
+            <div class="arrow-heading-first-child-icon">
+              <i class="fa fa-long-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <!-- Content start -->
+
+
+      
+      <div class="main-project-parent">
+        <div class="main-project-cover-image-6"></div>
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">Problem Statement Interpretation</div>
+          <div class="main-project-first-text-desc">
+
+            <ul>
+              <li>To make a product for the millennials willing to invest in stock markets by understanding things on their own.</li>
+              <li>Not looking for a concept that enables people to trade on financial markets.</li>
+              <li>One-stop trust-based solution where the millennials would love to refer before they make an investment decision.</li>
+            </ul>
+
+          </div>
+        </div>
+
+
+        <div class="main-project-first-text">
+
+          <div class="main-project-first-text-heading">Important things to include/remember about Millennials</div>
+          <div class="main-project-first-text-desc">
+            <ol>
+              <li>A very different style of information consumption.</li>
+              <li>The attention span is very less, just nine seconds!</li>
+              <li>Severely low patience level.</li>
+              <li>Want to invest and are more open to risk in this era.</li>
+              <li>Want to have full control in their own hands.</li>
+            </ol>
+
+          </div>
+        </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">Points to focus</div>
+          <br>
+        </div>
+            
+          <div>
+          <img class="main-project-images-design-height" src="Investwiser/focus.png">
+          </div>
+
+         
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">Product Research
+
+            <a href="Investwiser/InvestWiser_Research_Document.pdf" target="_blank" class="main-project-first-text-link"> (know more) </a>
+
+          </div>
+          <div class="main-project-first-text-desc">
+            <ol>
+              <li>Understanding the financial market (Secondary Research)</li>
+              <li>Exploring the trading platforms (Secondary Research)</li>
+              <li>Understanding user behavior (Primary Research)</li>
+              <li>Extracting insights</li>
+            </ol>
+
+            <br><br>
+          </div>
+
+          <div class="main-project-first-text-heading">Insights</div>
+          <div class="main-project-first-text-desc">
+            Completing all the basic research I finally listed <b>all the possible insights.</b> <br><br>
+
+            <ul>
+              <li style="padding-bottom: 1.5rem"><b>3 types of users</b> - Beginner, Intermediate and Experienced.</li>
+              <li style="padding-bottom: 1.5rem">The most important thing for beginners is <b>learning and understanding the financial market</b> without which it is extremely hard for them to master trading.</li>
+              <li style="padding-bottom: 1.5rem"><b>Strategies</b> are important for every user type.</li>
+              <li style="padding-bottom: 1.5rem"><b>Authentic content</b> from trusted sources is chosen to gain knowledge.</li>
+              <li style="padding-bottom: 1.5rem">The most important thing for trading is <b>consuming news</b> and analyzing the stocks accordingly.</li>
+            </ul>
+
+          </div>
+        </div>
+
+        
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">Millennial Characteristics (to keep in mind)</div>
+          <div class="main-project-first-text-desc">
+            <ol>
+              <li>Curious</li>
+              <li>Believes in practicality</li>
+              <li>Wants to earn more in less time</li>
+              <li>Extra help is always welcomed</li>
+              <li>Interesting things always amaze them</li>
+            </ol>
+          </div>
+        </div>
+
+
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">Combining insights with focus points keeping characteristics in mind</div>
+          <div class="main-project-first-text-desc">
+            <ol>
+              <li style="padding-bottom: 1.5rem">Product should be present on both desktop as well as mobile platform to provide user with all time access to the product.</li>
+              <li style="padding-bottom: 1.5rem">The product should have <b>brief and direct information</b>. Also, the given information should align with the thought process of the user. If not then, he might lose interest as they have a low patience level.</li>
+              <li style="padding-bottom: 1.5rem">As the attention span is very less so <b>quick interactive screens</b> might help to gain interest as well as attention</li>
+              <li style="padding-bottom: 1.5rem">For effective content surfing which is most important while trading, is possible through <b>clean UI and use of minimal content</b> which can be expanded if the user wishes to know more about it.</li>
+              <li style="padding-bottom: 1.5rem">Using <b>popup states or flash screens</b> to direct users to particular information for effective consumption and also surfing.</li>
+              <li style="padding-bottom: 1.5rem">Also, users should feel that the information they are consuming is from an <b>authentic source</b>. So, mentioning the sources near an information-rich area could be useful.</li>
+              <li style="padding-bottom: 1.5rem">Giving extra information in a suitable way is very likely to be consumed. So, <b>content writing should be very interesting</b> in the appropriate places.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">Asssumptions before proceding to solution</div>
+          <div class="main-project-first-text-desc">
+            <ul>
+              <li>Product has a decent amount of funding.</li>
+              <li>Team of professional analysts and other experts is present.</li>
+              <li>Being a millennial a user is knowing how to use digital media platforms.</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">Feature Listing</div>
+          <div class="main-project-first-text-desc">
+            <ol>
+              <li>News</li>
+              <li>Stock listings</li>
+              <li>Learn</li>
+              <li>Alerts</li>
+              <li>Simulator</li>
+              <li>Premium Services</li>
+            </ol>
+          </div> 
+        </div>
+
+
+        <div class="main-project-first-text">
+            <div class="main-project-first-text-heading">Product Description - According to hook model</div>
+            <div class="main-project-first-text-desc">
+              But why Hook Model? <br><br>
+
+              The aim is to influence customers to use your product on their own, again and again, without relying on overt calls-to-action such as ads or promotions and create unprompted user engagement.<br><br>
+
+              As I am making product for millenials which are very much impatient, have low attention span, so <b>a reliable platform with rich and optimum content</b> can be very helpful for them.<br><br>
+
+              Also, thus can be helpful from a business point of view as users can be hooked to our product and which can generate us revenue even more.<br><br>
+
+              For our product, following hook model blindly was not a good option as the platform is not entirely a habit forming product. <b>Using bits and pieces of the hook model to enhance experience</b> is what I did in this project.
+
+              <br><br><br>
+
+              <div class="main-project-first-text-subheading">1. Trigger:</div>
+              <div class="main-project-first-text-desc">
+              A trigger is the actuator of behavior. Once user has the motivation to refer about his/her investment decision our landing page works as the first trigger. <br><br>
+
+              It shows about all motivations of the users which are fulfilled by the product. A four fold landing page scratches the user motivation and gains trust so as to make them take an appropriate action.<br><br>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div>
+          <img class="main-project-images-design-width" src="Investwiser/landing.png">
+        </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+            Apart from this once user has started using the product they are given <b>personalized and custom notifications</b> to again trigger the action. These notifications could be anything related to quests, alerts, etc. Also these notification helps in effective consumption of the information.
+          </div>
+          <br>
+
+          <div>
+          <img class="main-project-images-design-width" src="Investwiser/notification.png">
+          </div>
+
+        </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-subheading">2. Action:</div>
+          <div class="main-project-first-text-desc">
+            Action is an essential element of the habit forming product but it needs sufficient motivation and ability to perform an action. So <b>for sufficient motivation we have listed things on our landing page</b>. i.e. Earning more money, effective and efficient way to understand market, and thus less risk factor. <br><br>
+
+            To increase the ability of the user to take action, platform is simplified and made more understandable. <b>Onboarding and go through of the product after sign in/sign up makes it more obvious for the users</b> to use the platform.
+
+            <br><br><br>
+
+          </div>
+        </div>
+
+          <div>
+          <img class="main-project-images-design-width" src="Investwiser/onboarding.png">
+          </div>
+
+          <br><br><br><br><br>
+
+          <div>
+          <img class="main-project-images-design-height" src="Investwiser/scheme.png">
+          </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+            <br> Now, Functionalities which user can use as a part of his/her actions are: <br>
+             <b>i)  Reading News</b>
+          </div>
+        </div>
+
+        <br>
+
+          <div>
+            <img class="main-project-images-design-width" src="Investwiser/News.png">
+            <br>
+          </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+             <b>ii)  Observing and knowing Stock listings</b>
+             <ul>
+              <li>Real time data.</li>
+              <li>Analysis curated by our experts.</li>
+              <li>Top picked relevant news by our analysts.</li>
+              <li>Predefined mathematical models to keep a track by yourself</li>
+            </ul>
+
+            <br>
+
+          </div>
+        </div>
+
+          <div>
+            <img class="main-project-images-design-width" src="Investwiser/Stocks.png">
+            <br>
+          </div>
+
+         <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+             <b>   iii)  Learning about market and finance</b>
+          </div>
+        </div>
+
+        <br>
+
+          <div>
+            <img class="main-project-images-design-width" src="Investwiser/Learn - Quest.png">
+            <br>
+            <img class="main-project-images-design-width" src="Investwiser/Learn - Modules.png">
+            <br>
+            <img class="main-project-images-design-width" src="Investwiser/Learn - Terminology.png">
+            <br>
+
+          </div>
+
+          <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+             <b>   iv)  Knowing latest alerts</b>
+          </div>
+        </div>
+
+        <br>
+
+          <div>
+            <img class="main-project-images-design-width" src="Investwiser/Alert - Overview.png">
+            <br>
+            <img class="main-project-images-design-width" src="Investwiser/Alert - InsideStory.png">
+            <br>
+
+          </div>
+
+          <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+             <b>   v)  Using Investment simulation</b>
+          </div>
+        </div>
+
+        <br>
+
+          <div>
+            <img class="main-project-images-design-width" src="Investwiser/Simulator.png">
+            <br>
+
+          </div>
+
+          <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+             <b>   vi)  And, registering for premium services</b>
+          </div>
+        </div>
+
+        <br>
+
+          <div>
+            <img class="main-project-images-design-width" src="Investwiser/navigation.png">
+            <br>
+
+          </div>
+
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+             <b>Cognitive shortcuts are used in the product to increase the likelihood of their desired action.</b> So as to give them better understanding of market and finally help them in their investment decisions. <br><br>
+
+             <b>Framing effect:</b> Use of appropriate graphics (and not just plain text) with color-coding to represent things in a very fine way. This way making it more interesting and increasing chances of content surfing and consumption.<br>
+          </div>
+        </div>
+
+          <div>
+            <img class="main-project-images-design-height" src="Investwiser/framing.png">
+            <br>
+
+          </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+             <b>Endowed progress effect:</b> Giving 10 investwiser coins just after login and mentioning that user will need a minimum of 20 coins to start investing in the simulator. This will motivate user to answer quest in the learn section to earn investwiser coins.
+          </div>
+        </div>
+
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-subheading">3. Variable Reward:</div>
+          <div class="main-project-first-text-desc">
+            <b>Rewards of the hunt:</b><br><br>
+
+            <b>Feed</b> is the section which every user experience once entered on the platform. The stream of limitless information displayed in a scrolling interface makes for a compelling reward of the hunt. It’s filled with a mix of both mundane and relevant content.
+            <br><br>
+            This variety creates an enticingly unpredictable user experience. On occasion, a user might find a particularly interesting piece of news, while other times, he/she won’t. But to keep hunting for more information, all that is needed is a flick of the finger or scroll of a mouse.<br><br>
+
+            <b>Feed contains:</b> <br>
+
+            <ul>
+              <li>Easy to read content from all over the product.</li>
+              <li>Quick links to main features.</li>
+              <li>Dictionary, to search for hard words if encountered.</li>
+            </ul>
+
+            <br>
+
+            Basically providing with all the required information at one place in a short format so that user can be engaged and can surface content more smoothly. <b>This was introduced in the product because the attention span of the targeted user is very low.</b>
+
+            <br><br>
+          </div>
+        </div>
+
+          <div>
+            <img class="main-project-images-design-width" src="Investwiser/Feed.png">
+            <br>
+
+          </div>
+
+
+          <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+            <b>Rewards of the Self:</b><br><br>
+
+            For <b>more personal form of gratification</b> quizzes and investwiser money are there in the product. Also earning through simulator will also give instant gratification.
+            <br><br>
+
+            <b>Maintaining variability in rewards:</b> Quizzes can be of different types, the money rewarded by that can vary and earning money from simulator is unpredictably variable as it is based on real market stats.
+
+            <br><br>
+          </div>
+        </div>
+
+        <div>
+            <img class="main-project-images-design-height" src="Investwiser/quiz.png">
+            <br><br>
+            <img class="main-project-images-design-height" src="Investwiser/coins.png">
+            <br>
+
+          </div>
+
+
+          <div class="main-project-first-text">
+          <div class="main-project-first-text-subheading">4. Investment:</div>
+          <div class="main-project-first-text-desc">
+            We irrationally value our efforts. Any effort or investment made in a product can hook a user to the product. Or in other words more the efforts user will do on a product the more are the chances of him to use it at other times too
+            <br><br>
+
+            In the product there are functionalities like:<br>
+
+            <ul>
+              <li><b>Learning from module</b> which requires investing time.</li>
+              <li><b>Simulator section</b> which requires investment of money as well as time.</li>
+              <li>And, If <b>pro account</b> taken then investment of real money which is a major binding factor to the product.</li>
+            </ul>
+
+            <br>
+
+            Also, I was planning to <b>introduce “save” option</b> for the content provided by our experts which can act as a saved data which user would not want to leave.<br><br>
+
+            These investments would make user to come to our platform continuously before making any investment decisions.
+
+            <br><br>
+          </div>
+        </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-subheading">5. Loading next trigger:</div>
+          <div class="main-project-first-text-desc">
+            Loading next trigger so that user can come again on the platform. In our product it’s not compulsory to bring user every now and then like instagram or facebook. But just the enough amount of time and till user wants that.
+            <br><br>
+
+            So for this Investwiser have:<br>
+
+            <ul>
+              <li><b>Notifications of daily quest</b></li>
+              <li><b>Result of simulator investments</b></li>
+              <li><b>Related news and interesting things</b> according to the last user activity</li>
+            </ul>
+
+            <br>
+
+            <b>This trigger can also be helpful in consuming new content which might help user to invest wisely.</b>
+            <br><br>
+
+            Also in the further stages of product advertisements, achievement sharing etc. can be introduced to onboard more users on the platform as well as hooking the existing users.
+
+            <br><br>
+          </div>
+        </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">Business Prospects</div>
+          <div class="main-project-first-text-desc">
+           
+            <ol>
+              <li style="padding-bottom: 3rem">User can avail <b>premium membership</b> from “Go Pro” section where he/she will get:<br>
+                  <ul>
+                  <li>Advise on “Stock Selection”.</li>
+                  <li>Strategies specially curated by experts.</li>
+                  </ul>
+
+                  Premium subscription can be tested by using <b>7 days trial period.</b>
+              </li>
+
+              <li>InvestWiser Money can be used on other trading platforms as an exchange money. In exchange we can list their platform on our product as secure and safe platform.</li>
+            </ol>
+
+            <br>
+          </div>
+        </div>
+     
+
+
+      <!-- Content end -->
+
+
+
+
+
+      <div class="arrow-footer-parent display-flex-between">
+        <div class="arrow-footer-first-child">
+          <a href="./animation.html" class="display-flex-start">
+            <div class="arrow-footer-first-child-icon">
+              <i class="fa fa-long-arrow-left"></i>
+            </div>
+            <div class="arrow-footer-first-child-text">
+              Previous Project
+              <div class="arrow-footer-second-child-text">
+                Animation and Interactions
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="arrow-heading-text-parent">
+          <div class="arrow-heading-text-extra-small">
+            <a href="../project.html">All Projects</a>
+          </div>
+        </div>
+        <div class="arrow-footer-first-child">
+          <a href="./Microsoft.html" class="display-flex-end">
+            <div class="arrow-footer-first-child-text text-align-right">
+              Next Project
+              <div class="arrow-footer-second-child-text">
+                Microsoft Teams
+              </div>
+            </div>
+            <div class="arrow-footer-first-child-icon">
+              <i class="fa fa-long-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="mobile-footer-parent">
+      <a href="./animation.html" class="mobile-footer-flex">
+        <div class="mobile-footer-column">
+          <img src="../img/Projects/left.svg" />
+        </div>
+        <span>Previous</span>
+      </a>
+      <a href="./Microsoft.html" class="mobile-footer-flex">
+        <div class="mobile-footer-column">
+          <img src="../img/Projects/right.svg" />
+        </div>
+        <span>Next</span>
+      </a>
+    </div>
+
+    <div id="footer" class="margin-top-6rem window-margin-8rem">
+      <div class="footer-parent-child">
+        <div class="footer-svg-2">
+          <img src="./img/Landing/dotted.svg" alt="" />
+        </div>
+        <div class="footer-svg-3">
+          <img src="./img/Landing/dotted.svg" alt="" />
+        </div>
+        <div class="footer-lets-talk display-flex padding-top-3rem">
+          <div>
+            Let's Talk
+          </div>
+        </div>
+        <div class="footer-discription display-flex margin-top-2rem">
+          <div>
+            If you want to collab or get in touch with me just
+            <span>
+              <a class="text-color-blue" href="./talk.html">
+                <b>drop me a message</b>
+              </a> </span
+            >, or mail me at
+            <span>
+              <a class="text-color-orange" href="mailto:lakshya.97k@gmail.com">
+                <b>lakshya.97k@gmail.com</b>
+              </a>
+            </span>
+            will get back to you as soon as possible.
+          </div>
+        </div>
+        <div
+          class="footer-logos display-flex margin-top-2rem padding-bottom-2rem"
+        >
+          <div class="footer-logos-child display-flex">
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-fb"
+                target="_blank"
+                href="https://www.facebook.com/lakshya.kumawat.161"
+              >
+                <img src="../img/Footer/f.svg" alt="" />
+                <div class="footer-logos-text-fb">Facebook</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-ln"
+                target="_blank"
+                href="https://www.linkedin.com/in/lakshya-kumawat-422349128/"
+              >
+                <img src="../img/Footer/l.svg" alt="" />
+                <div class="footer-logos-text-ln">Linkedin</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-m"
+                target="_blank"
+                href="https://medium.com/@lakshyakumawat_943"
+              >
+                <img src="../img/Footer/m.svg" alt="" />
+                <div class="footer-logos-text-m">Medium</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-d"
+                target="_blank"
+                href="https://dribbble.com/lakshya07"
+              >
+                <img src="../img/Footer/d.svg" alt="" />
+                <div class="footer-logos-text-d">Dribbble</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-b"
+                target="_blank"
+                href="https://www.behance.net/lakshya07"
+              >
+                <img src="../img/Footer/b.svg" alt="" />
+                <div class="footer-logos-text-b">Behance</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+    </div>
+  </body>
+</html>

@@ -129,7 +129,7 @@
 .project-img-1 {
   height: 100%;
   width: auto;
-  background-image: url('../img/Landing/Project/ingenium.png');
+  background-image: url('../img/Landing/Project/investwiser.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -147,12 +147,13 @@
 .project-img-3 {
   height: 100%;
   width: auto;
-  background-image: url('../img/Landing/Project/convocation.png');
+  background-image: url('../img/Landing/Project/microsoft.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
 }
+
 .project-desc {
   width: 53%;
 }

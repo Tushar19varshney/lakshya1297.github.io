@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<!-- this is html page from which you can view the portfolio website -->
+<html lang="en">
+  <head>
+    <!-- unicode characters -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Lakshya Portfolio" />
+    <meta name="author" content="Lakshya Kumawat" />
+    <title>Convocation</title>
+    <!-- my own css file -->
+
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/projects.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/loader.css" />
+    <link rel="stylesheet" href="../css/aboutme.css" />
+    <link rel="stylesheet" href="../css/allprojects.css" />
+    <link rel="stylesheet" href="../css/talk.css" />
+    <link rel="stylesheet" href="./css/projectscontent.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300"
+      rel="stylesheet"
+    />
+
+    <!--Custom Fonts-->
+    <link rel="stylesheet" href="../css/font.css" />
+
+    <script src="../js/navbar.js"></script>
+    <script src="../js/loader.js"></script>
+
+    <!-- Icon Fonts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="shortcut icon" type="image/png" href="../img/Landing/logo.png" />
+  </head>
+
+  <body onload="loaderFunction()">
+    <div id="loader" class="loader-parent">
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+          <circle id="test" cx="40" cy="40" r="32"></circle>
+        </svg>
+      </div>
+
+      <div class="loader triangle">
+        <svg viewBox="0 0 86 80">
+          <polygon points="43 8 79 72 7 72"></polygon>
+        </svg>
+      </div>
+
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+          <rect x="8" y="8" width="64" height="64"></rect>
+        </svg>
+      </div>
+    </div>
+    <nav
+      id="navbar"
+      class="navbar navbar-custom-parent navbar-expand-sm fixed-top"
+    >
+      <div class="nav-grand-parent">
+        <div class="navbar-child-logo-parent">
+          <a href="../index.html">
+            <div class="navbar-child-logo-child-container">
+              <div class="navbar-child-logo-child1">
+                <img src="../img/Landing/logo.png" />
+              </div>
+              <div class="navbar-child-logo-name">
+                <div>Lakshya Kumawat</div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="navbar-child-items">
+          <ul id="nav-items" class="navbar-nav navbar-custom-child-items-child">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../project.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../talk.html">Let's Talk</a>
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="../resume/Lakshya Resume.pdf"
+                >Resume</a
+              >
+            </li>
+          </ul>
+          <div class="nav-mobile-icons">
+            <a class="nav-mobile-icons-msg" href="mailto:lakshya.97k@gmail.com">
+              <img src="../img/msg.svg" alt="" />
+            </a>
+            <div id="menuToggle">
+              <input type="checkbox" />
+              <!-- <div class="menu-toggle-span-parent"> -->
+              <span></span>
+              <span class="span-middle-ham"></span>
+              <span></span>
+              <!-- </div> -->
+              <ul id="menu">
+                <div class="menu-list-parent">
+                  <a href="../index.html"><li>Home</li></a>
+                  <a href="#"
+                    ><li class="active-mobile-nav-link">Projects</li></a
+                  >
+                  <a href="../blogs.html"><li>Blogs</li></a>
+                  <a href="../aboutme.html"><li>About Me</li></a>
+                  <a href="../talk.html"><li>Let's Talk</li></a>
+                  <a href="../resume/Lakshya Resume.pdf" target="_blank"
+                    ><li>Resume</li></a
+                  >
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="mailer-msg">
+      <a href="mailto:lakshya.97k@gmail.com">
+        <img src="./img/icon.svg" alt="" />
+      </a>
+    </div>
+
+    <div class="indi-project-parent">
+      <div class="arrow-heading-parent display-flex-between">
+        <div class="arrow-heading-first-child">
+          <a href="Foodbox.html" class="display-flex-start">
+            <div class="arrow-heading-first-child-icon">
+              <i class="fa fa-long-arrow-left"></i>
+            </div>
+            <div class="arrow-heading-first-child-text">
+              Previous
+            </div>
+          </a>
+        </div>
+        <div class="arrow-heading-text-parent">
+          <div class="arrow-heading-text-big">Convocation App IIT Roorkee</div>
+          <div class="arrow-heading-text-small">UI/UX Design</div>
+        </div>
+        <div class="arrow-heading-first-child">
+          <a href="Interiitcult.html" class="display-flex-end">
+            <div class="arrow-heading-first-child-text">
+              Next
+            </div>
+            <div class="arrow-heading-first-child-icon">
+              <i class="fa fa-long-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Content start -->
+
+      <div class="main-project-parent">
+        <div class="main-project-cover-image-4"></div>
+
+        <img
+          class="main-project-images-design-width"
+          src="Convo/convoportfolio.png"
+        />
+        <!-- <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">Description</div>
+          <div class="main-project-first-text-desc">
+            When we think of coaching or tution education in India, the first thing that come into our mind is simply a place where we will go and a trained teacher will teach us the concepts. Similar practice is there in India but due to a very large population of students involved, the management for the coaching institute and teachers is a very hectic work. Also interaction with the students is lot more difficult when we have a very big class to teach. <br> <br>
+
+            With such idea to make coaching education more helpful and more efficient, the “Ingenium Educations” was made. The basic product is based on a mobile application which is the most used device in current generation. There were 2 different app for the students and teachers.</b> <br> <br> 
+
+          </div>
+
+          <div class="main-project-first-text-subheading">My Role</div>
+          <div class="main-project-first-text-desc">
+            Research for the teacher based product , development of best suited process , Building the final product (which includes wireframing + visual interface). <br> <br>
+          </div>
+
+          <div class="main-project-first-text-subheading">Project Timeline : 08 Weeks <br><br></div>
+        </div>
+
+          <div>
+          <img class="main-project-images-design-height" src="Ingenium/Timeline.png">
+          </div>
+
+          <br>
+
+        <div class="main-project-first-text">
+
+          <div class="main-project-first-text-heading">Analysing Target Audience</div>
+          <div class="main-project-first-text-desc">
+            The first thing to start with was defining audience or the target audience which would be using this app for their institution. The following type of users were there: <br> <br>
+
+          </div>
+        </div>
+
+          <div>
+          <img class="main-project-images-design-height" src="Ingenium/target.png">
+          </div>
+
+        <div class="main-project-first-text">
+            <div class="main-project-first-text-desc">
+            The users were of variety of age groups but majorly people in the age group of 25-50. The further process described is majorly based on this data. <br> <br>
+
+          </div>
+
+          <br> <br>
+
+          <div class="main-project-first-text-heading">Functionality</div>
+          <div class="main-project-first-text-desc">
+            The functionality draft provides the overview of the features. They help think through the design decisions, to create and provide a useful user experience. In general sense this is the basic outlines of the features that will be inside the app. The functionalities were obtained after a brief description of the product by the stakeholders. <br><br>
+
+            <b>Attendance :</b>  One of the major feature a teacher will be using to minimize his efforts and time usage, with additional benefit of data backup. <br><br>
+
+            <b>Homework :</b> Teacher can give  homework directly to all the students using the database of questions they would have with them. <br><br>
+
+            <b>Analysis :</b>  It would be necessary for the teacher to analyse the performance of the student or the class for his further proceedings on the subject.<br><br>
+
+            <b>Chat :</b>  Teacher-Student interaction is one of the main feature which this product incorporate. One way to do this is providing chat feature for direct contact, would be useful for the students who hesitate in asking doubts in class. <br><br>
+
+            <b>Fee Management :</b>  Institute can manage their fee charts through the app which can be a selling point of the product in big institutes where students are more in number.<br><br>
+
+            <b>Forum :</b>  There should be a forum where people (students+teachers) can ask questions which can be visible to all. Helpful feature for a problem to be solved by a group.<br><br>
+
+            <b>Profile :</b>  Personalisation for the individual teacher is an important feature to make the product different from the competitors and provide better experience to the users.<br><br>
+
+          </div>
+            
+          <br> <br>
+
+          <div class="main-project-first-text-heading">Research and Process</div>
+
+          <div class="main-project-first-text-desc">
+            Being my first project on product I started my research with basic 5 steps of design process. <br>
+
+            <b>1. Empathise  &nbsp&nbsp&nbsp&nbsp&nbsp 2. Define  &nbsp&nbsp&nbsp&nbsp&nbsp  3. Ideate  &nbsp&nbsp&nbsp&nbsp&nbsp  4. Prototype   &nbsp&nbsp&nbsp&nbsp&nbsp  5. Test </b>
+            <br> <br>
+
+          </div>
+        </div>
+
+          <div>
+          <img class="main-project-images-design-height" src="Ingenium/process.png">
+          </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-subheading">Stakeholder Interview & Deciding Features</div>
+          <div class="main-project-first-text-desc">
+            I interviewed the founders of the Ingenium Educations about their views and suggestions related to the product we were creating. We all brainstormed together and with the competitive analysis, the mutual decision came out were the features to be included in the app. <br><br>
+
+            Point of deciding the features with the stakeholder itself was that they were pretty good at product thinking and they had their research done beforehand about the functionality of the app. <br><br>
+          </div>
+
+          <div class="main-project-first-text-subheading">User Centric Approach</div>
+          <div class="main-project-first-text-desc">
+            One of the main theme that almost every product follow is the user centric approach with business perspective kept in mind.<br><br>
+
+            Similarly while designing the screens I kept in mind: <br>
+
+            - &nbsp  What type of users are we dealing here?<br>
+            - &nbsp  What type of apps do these users use?<br>
+            - &nbsp  Which medium they use to chat?<br>
+            - &nbsp  Is discussion an important part of their work?<br>
+            - &nbsp  Is taking attendance through existing methods easy & less time consuming for them?<br>
+            - &nbsp  It should be easy for them to give homework through the app.<br>
+            - &nbsp  Managing fees, which is a very important feature in the app should be easy to use and less time consuming.<br><br>
+
+            After analysing these questions, I came to a decision that answers to all these questions may differ from one person to another. This lead me to make user personas for better knowledge of the users and their thinking. I studied asked similar questions to 4-5 teachers of different sectors. Finally 2 personas were selected for the product and features were refined according to the maximum use cases.
+            <br><br>
+          </div>
+
+          <div class="main-project-first-text-subheading">Flow of the App</div>
+          <div class="main-project-first-text-desc">
+            After deciding the features the important work was to decide the flow of the app.<br><br>
+
+            I separated the important features from the less important ones and the least priority ones. The importance of the feature was decided on the basis of usability or use case of the user.<br><br>
+
+            The idea behind this process was to know which features must be shown upfront and which can be placed inside. This process helps to build a flow very effectively and with ease. Experience of a user will be more dependent on those more important features. <br><br>
+
+            With all these information with me, I created a “Information Architecture” which is as follows:<br><br>
+          </div>
+
+          <div class="main-project-first-text-subheading">Information Architecture</div>
+
+            <br> <br>
+
+        </div>
+
+        <div>
+          <img class="main-project-images-design-height" src="Ingenium/IA.png">
+        </div>
+        
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">Visual Designing Process</div>
+          <div class="main-project-first-text-desc">
+            Designing a visual for a product is as difficult as understanding the process and doing research for it. Many products improve their user experience but they are not attractive or visually balanced due to which the traffic is not upto the level as expected. For a budding startup like Ingenium Educations, people involvement was one of the major requirement. <br><br>
+
+            With my learning in product I came to know that user experience can be improved by refining user interface. A good user interface can automatically open up the ways for a user to smoothly explore the product. <br><br>
+          </div>
+        </div>
+
+        <div>
+          <br>  
+          <img class="main-project-images-design-width" src="Ingenium/iteration.png">
+        </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-desc">
+            So, keeping in mind the importance of visual design, I started with the main features and followed user centric approach. <br><br>
+          </div>
+
+          <div class="main-project-first-text-heading">Wireframes</div>
+          <div class="main-project-first-text-desc">
+            After all the research work, I made hand drawn wireframes which I further converted to high fidelity wireframes in software.<br><br>
+          </div>
+        </div>
+
+        <div>
+          <br>
+          <img class="main-project-images-design-height" src="Ingenium/wireframe1.png">
+        </div>
+        <div>
+          <img class="main-project-images-design-height" src="Ingenium/wireframe2.png">
+        </div>
+
+        <div class="main-project-first-text">
+          <div class="main-project-first-text-heading">User Interface</div>
+          <div class="main-project-first-text-desc">
+            <b>Colors :</b> I decided to select vibrant color to give the feel of enthusiasm and not boring stuff.
+            <br>
+
+            <b>Font :</b> Open Sans with its weights.<br><br>
+
+            Simple, clean, card based UI with lots of white space to make everything clear and understandable.
+          </div>
+          <br><br>
+          
+        </div>
+
+        <img class="main-project-images-design-width" src="Ingenium/UI1.png">
+        <img class="main-project-images-design-width" src="Ingenium/UI2.png">
+        <img class="main-project-images-design-width" src="Ingenium/UI3.png">
+        <img class="main-project-images-design-width" src="Ingenium/UI4.png">
+        <img class="main-project-images-design-width" src="Ingenium/UI5.png">
+        <img class="main-project-images-design-width" src="Ingenium/UI6.png">
+
+        <div class="main-project-first-text">
+            <div class="main-project-first-text-heading">Summarizing</div><br>
+            <div class="main-project-first-text-desc">
+              Summarising my design experience with Ingenium Educations. Being my first product design project, I was very nervous about it. I got stuck up here and there at many times but due to the support of my seniors and friends, I was able to finish the project on time. The stakeholders were very impressed with the work. <br> <br>
+
+              It is a great feeling, seeing your design being used in a successful budding startup. This gives me the encouragement for further efforts in more projects like this. This project made me interested in exploring opportunities in product designing and solve more and more user related problems.
+
+
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Content end -->
+
+        <div class="arrow-footer-parent display-flex-between">
+          <div class="arrow-footer-first-child">
+            <a href="Foodbox.html" class="display-flex-start">
+              <div class="arrow-footer-first-child-icon">
+                <i class="fa fa-long-arrow-left"></i>
+              </div>
+              <div class="arrow-footer-first-child-text">
+                Previous Project
+                <div class="arrow-footer-second-child-text">
+                  Foodbox
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="arrow-heading-text-parent">
+            <div class="arrow-heading-text-extra-small">
+              <a href="../project.html">All Projects</a>
+            </div>
+          </div>
+          <div class="arrow-footer-first-child">
+            <a href="Interiitcult.html" class="display-flex-end">
+              <div class="arrow-footer-first-child-text text-align-right">
+                Next Project
+                <div class="arrow-footer-second-child-text">
+                  Inter IIT Cult Meet
+                </div>
+              </div>
+              <div class="arrow-footer-first-child-icon">
+                <i class="fa fa-long-arrow-right"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-footer-parent">
+      <a href="Foodbox.html" class="mobile-footer-flex">
+        <div class="mobile-footer-column">
+          <img src="../img/Projects/left.svg" />
+        </div>
+        <span>Previous</span>
+      </a>
+      <a href="Interiitcult.html" class="mobile-footer-flex">
+        <div class="mobile-footer-column">
+          <img src="../img/Projects/right.svg" />
+        </div>
+        <span>Next</span>
+      </a>
+    </div>
+
+    <div id="footer" class="margin-top-6rem window-margin-8rem">
+      <div class="footer-parent-child">
+        <div class="footer-svg-2">
+          <img src="./img/Landing/dotted.svg" alt="" />
+        </div>
+        <div class="footer-svg-3">
+          <img src="./img/Landing/dotted.svg" alt="" />
+        </div>
+        <div class="footer-lets-talk display-flex padding-top-3rem">
+          <div>
+            Let's Talk
+          </div>
+        </div>
+        <div class="footer-discription display-flex margin-top-2rem">
+          <div>
+            If you want to collab or get in touch with me just
+            <span>
+              <a class="text-color-blue" href="./talk.html">
+                <b>drop me a message</b>
+              </a> </span
+            >, or mail me at
+            <span>
+              <a class="text-color-orange" href="mailto:lakshya.97k@gmail.com">
+                <b>lakshya.97k@gmail.com</b>
+              </a>
+            </span>
+            will get back to you as soon as possible.
+          </div>
+        </div>
+        <div
+          class="footer-logos display-flex margin-top-2rem padding-bottom-2rem"
+        >
+          <div class="footer-logos-child display-flex">
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-fb"
+                target="_blank"
+                href="https://www.facebook.com/lakshya.kumawat.161"
+              >
+                <img src="../img/Footer/f.svg" alt="" />
+                <div class="footer-logos-text-fb">Facebook</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-ln"
+                target="_blank"
+                href="https://www.linkedin.com/in/lakshya-kumawat-422349128/"
+              >
+                <img src="../img/Footer/l.svg" alt="" />
+                <div class="footer-logos-text-ln">Linkedin</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-m"
+                target="_blank"
+                href="https://medium.com/@lakshyakumawat_943"
+              >
+                <img src="../img/Footer/m.svg" alt="" />
+                <div class="footer-logos-text-m">Medium</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-d"
+                target="_blank"
+                href="https://dribbble.com/lakshya07"
+              >
+                <img src="../img/Footer/d.svg" alt="" />
+                <div class="footer-logos-text-d">Dribbble</div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="footer-logo-child-child footer-logos-b"
+                target="_blank"
+                href="https://www.behance.net/lakshya07"
+              >
+                <img src="../img/Footer/b.svg" alt="" />
+                <div class="footer-logos-text-b">Behance</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+    </div>
+  </body>
+</html>
