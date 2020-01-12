@@ -191,7 +191,7 @@ a {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
   #home {
     width: 75%;
     margin: 0 auto;

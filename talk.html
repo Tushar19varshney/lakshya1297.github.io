@@ -313,22 +313,24 @@
         url =
           'https://script.google.com/macros/s/AKfycbxXc2jT-aecV2C1yz1KEWWpD1GhMADS0YMlaB-9KxR-ouYTSh8/exec'
 
-      function abc() {
+      function submitForm() {
         $.ajax({
           url: url,
           method: 'GET',
           dataType: 'json',
           data: $form.serializeArray()
         })
-        // $('#test-form').hide()
-        // $('.links-shown').show()
-        // submitform = true
         document.getElementById('success-message').style.display = 'block'
+        document.getElementById('fullname').value = ''
+        document.getElementById('email').value = ''
+        document.getElementById('organisation').value = ''
+        document.getElementById('message').value = ''
+        window.scrollTo(0, 350)
       }
 
       $('#submit-form').on('click', function(e) {
         e.preventDefault()
-        abc()
+        submitForm()
       })
     </script>
   </body>

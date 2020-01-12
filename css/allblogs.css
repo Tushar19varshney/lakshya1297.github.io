@@ -17,7 +17,7 @@
   border-radius: 5px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1399px) {
+@media screen and (min-width: 769px) and (max-width: 1499px) {
   .all-blogs-img-2 {
     background-size: cover;
   }
@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
   .all-blogs-img-2 {
     height: 27vh;
   }

@@ -11,7 +11,7 @@
   background-size: contain;
 }
 
-.talk-grand-parent{
+.talk-grand-parent {
   width: 80%;
   margin-left: 15vw;
 }
@@ -95,7 +95,7 @@
 }
 
 .success-message {
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   font-family: Neutrifpro-regular;
   margin-top: 1rem;
   color: green;
@@ -106,78 +106,78 @@
   margin-top: 8.5rem;
 }
 
-@media screen and (max-width:768px){
-  .talk-parent{
+@media screen and (max-width: 768px) {
+  .talk-parent {
     height: 100vh;
     justify-content: center;
   }
-  .talk-grand-parent{
+  .talk-grand-parent {
     width: 84%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.75rem;
   }
-  .talk-child1-image{
+  .talk-child1-image {
     order: 1;
     height: 30vh;
     width: 100%;
   }
-  .talk-child1-description{
-    order:2;
+  .talk-child1-description {
+    order: 2;
     width: 100%;
   }
-  .talk-heading{
+  .talk-heading {
     text-align: center;
     font-size: 1.8rem;
     line-height: 2.3rem;
     margin-top: 2rem;
   }
-  .talk-main-desc{
+  .talk-main-desc {
     text-align: center;
-    color: #606C82;
+    color: #606c82;
     font-size: 1.2rem;
   }
-  .talk-form-parent{
+  .talk-form-parent {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
   }
-  .talk-button-hover{
+  .talk-button-hover {
     padding: 0.65rem 1rem;
     font-size: 0.8rem;
   }
-  .talk-form-field-info{
+  .talk-form-field-info {
     font-size: 0.8rem;
     margin-top: 2rem;
   }
 }
 
-@media screen and (min-height:731px ) and (max-height:767px){
-  .talk-grand-parent{
+@media screen and (min-height: 731px) and (max-height: 767px) {
+  .talk-grand-parent {
     margin-top: 0rem;
   }
 }
 
-@media screen and (max-width:359px){
-  .talk-heading{
+@media screen and (max-width: 359px) {
+  .talk-heading {
     font-size: 1.6rem;
     margin-top: 1.5rem;
   }
-  .talk-main-desc{
+  .talk-main-desc {
     font-size: 1rem;
   }
-  .talk-button-hover{
+  .talk-button-hover {
     font-size: 0.7rem;
   }
-  .talk-form-field-info{
+  .talk-form-field-info {
     font-size: 0.7rem;
     margin-top: 2rem;
   }
 }
 
-@media screen and (min-width:1400px){
-  .talk-grand-parent{
+@media screen and (min-width: 1500px) {
+  .talk-grand-parent {
     width: 60%;
     margin-left: 24vw;
     margin-top: 10rem;

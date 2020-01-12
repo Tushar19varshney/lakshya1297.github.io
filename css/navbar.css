@@ -275,7 +275,7 @@ nav {
     top: 1.05rem;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
   .nav-grand-parent {
     width: 75%;
     margin: 0 auto;

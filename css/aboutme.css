@@ -119,7 +119,7 @@
   margin-top: 2rem;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
   .margin-top-6rem {
     margin-top: 4rem;
   }
@@ -443,7 +443,7 @@
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
   .aboutme-parent-div {
     margin-top: 13rem;
     width: 55%;
