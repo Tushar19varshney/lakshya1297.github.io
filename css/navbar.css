@@ -39,7 +39,7 @@ nav {
   display: flex;
   flex-direction: row;
   padding: 1.4rem;
-  height: 100% !important;
+  height: 100%;
 }
 .navbar-child-logo-child1 {
   display: flex;

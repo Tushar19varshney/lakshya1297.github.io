@@ -63,11 +63,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 100000;
 }
 
 .footer-logo-child-child img {
   height: 6vh;
   width: 4vw;
+  z-index: 100000;
   margin: 0.5rem auto;
 }
 
@@ -79,6 +81,10 @@
 .footer-logos-text-fb:hover {
   color: #3b5998;
   font-weight: 700;
+}
+
+.footer-logos-fb {
+  z-index: 100000;
 }
 
 .footer-logos-fb img:hover ~ .footer-logos-text-fb {
