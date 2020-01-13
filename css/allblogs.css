@@ -1,6 +1,8 @@
 .all-blogs-img-2 {
-  height: 33vh;
-  background-image: url('../img/Landing/Project/whatsapp.png');
+  height: 48vh;
+  width: 18vw;
+  margin: auto;
+  background-image: url('../img/Landing/Blog/blog1.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -8,14 +10,43 @@
   border-radius: 5px;
 }
 .all-blogs-img-3 {
-  height: 33vh;
-  background-image: url('../img/Landing/Project/convocation.png');
+  height: 48vh;
+  width: 18vw;
+  margin: auto;
+  background-image: url('../img/Landing/Blog/blog2.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
   border-radius: 5px;
 }
+.all-blogs-img-4 {
+  height: 48vh;
+  width: 18vw;;
+  margin: auto;
+  background-image: url('../img/Landing/Blog/blog3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  border-radius: 5px;
+}
+.all-blogs-img-5 {
+  height: 48vh;
+  width: 18vw;  
+  margin: auto;
+  background-image: url('../img/Landing/Blog/blog4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  border-radius: 5px;
+}
+.all-blogs-child-parent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 @media screen and (min-width: 769px) and (max-width: 1499px) {
   .all-blogs-img-2 {
@@ -24,13 +55,67 @@
   .all-blogs-img-3 {
     background-size: cover;
   }
+  .all-blogs-img-4 {
+    background-size: cover;
+  }
+  .all-blogs-img-5 {
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1499px) {
+  .all-blogs-img-2 {
+    height: 44vh;
+    width: 21vw;
+  }
+  .all-blogs-img-3 {
+    height: 44vh;
+    width: 21vw;
+  }
+  .all-blogs-img-4 {
+    height: 44vh;
+    width: 21vw;
+  }
+  .all-blogs-img-5 {
+    height: 44vh;
+    width: 21vw;
+  }
 }
 
 @media screen and (min-width: 1500px) {
   .all-blogs-img-2 {
-    height: 27vh;
+    height: 40vh;
   }
   .all-blogs-img-3 {
-    height: 27vh;
+    height: 40vh;
+  }
+  .all-blogs-img-4 {
+    height: 40vh;
+  }
+  .all-blogs-img-5 {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .all-blogs-img-2 {
+    background-size: cover;
+    height: 48vh;
+    width: 66vw;
+  }
+  .all-blogs-img-3 {
+    background-size: cover;
+    height: 48vh;
+    width: 66vw;
+  }
+  .all-blogs-img-4 {
+    background-size: cover;
+    height: 48vh;
+    width: 66vw;
+  }
+  .all-blogs-img-5 {
+    background-size: cover;
+    height: 48vh;
+    width: 66vw;
   }
 }
