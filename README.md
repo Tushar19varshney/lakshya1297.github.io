@@ -1,3 +1,3 @@
 # Lakshya Kumawat
 
-#### [Website link](https://lakshyakumawat.com)
+#### [https://lakshyakumawat.com](https://lakshyakumawat.com)
