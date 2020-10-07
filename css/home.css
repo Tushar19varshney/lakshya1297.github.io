@@ -51,8 +51,11 @@ a {
   font-size: 1rem;
   padding: 0.75rem 3.5rem;
   border-radius: 0.3rem;
+  transition: opacity ease-in .2s;
 }
-
+.home-child-left-button:hover {
+    opacity: 0.8;
+}
 .home-child-image {
   width: 35%;
   background-image: url('../img/Landing/illus.png');
