@@ -186,6 +186,7 @@
   font-size: 0.9rem;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
+  width:152px;
 }
 .margin-left-1rem {
   margin-left: 1rem;
@@ -211,8 +212,11 @@
   border-radius: 0.3rem;
   font-family: Neutrifpro-regular;
   color: white;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0.75rem 1.5rem;
+  width:208px;
+  justify-content: center;
+  margin: auto;
 }
 .project-view-desc {
   margin: 1.2rem 0 2rem 0;
@@ -249,10 +253,19 @@
   }
   .project-desc {
     width: 100%;
+    justify-content: center;
   }
   .project-desc-heading {
     font-size: 1.5rem;
     line-height: 2.3rem;
+    align-self: center;
+    margin: auto;
+    justify-content: center;
+    }
+
+  .project-desc-button-child{
+    justify-content: center;
+    margin: auto;
   }
   .project-view-heading {
     font-size: 1.7rem;
